@@ -12,7 +12,7 @@ Umbraco v8 backoffice language translation to croatian (hrvatski). File **hr.xml
 - Referesh F5 umbraco backoffice
 - Now your backoffice should be displayed in croatian language for Admin user
 
-- **For older umbraco v8 versions** before runing your umbraco project in Visual Studio, open web.config file and change **Umbraco.Core.DefaultUILanguag** key in **<appSettings>** section: 
+- **For older umbraco v8 versions** before runing your umbraco project in Visual Studio, open web.config file and change value of the **Umbraco.Core.DefaultUILanguag** key in **<appSettings>** section: 
 ```
 <add key="Umbraco.Core.DefaultUILanguage" value="hr-HR" />
 ```
