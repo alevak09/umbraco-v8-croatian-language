@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="hr" intName="Croatian" localName="Hrvatski" lcid="" culture="hr-HR">
+  <creator>
+    <name>Umbraco zajednica</name>
+    <link>https://our.umbraco.com/documentation/Extending-Umbraco/Language-Files</link>
+  </creator>
+  <area alias="actions">
+    <key alias="assignDomain">Administracija domena</key>
+    <key alias="auditTrail">Audit zapis</key>
+    <key alias="browse">Pregled čvorova</key>
+    <key alias="changeDocType">Promijeni Tip Dokumenta</key>
+    <key alias="changeDataType">Promijeni Tip Podatka</key>
+    <key alias="copy">Kopiraj</key>
+    <key alias="create">Kreiraj</key>
+    <key alias="export">Izvezi</key>
+    <key alias="createPackage">Kreiraj paket</key>
+    <key alias="createGroup">Kreiraj grupu</key>
+    <key alias="delete">Obriši</key>
+    <key alias="disable">Onemogući</key>
+    <key alias="editSettings">Uredi postavke</key>
+    <key alias="emptyRecycleBin">Isprazni koš za smeće</key>
+    <key alias="enable">Omogući</key>
+    <key alias="exportDocumentType">Izvezi Tip Dokumenta</key>
+    <key alias="importDocumentType">Uvezi Tip Dokumenta</key>
+    <key alias="importPackage">Uvezi Paket</key>
+    <key alias="liveEdit">Uređivanje na stranici</key>
+    <key alias="logout">Izlaz</key>
+    <key alias="move">Premjesti</key>
+    <key alias="notify">Obavijesti</key>
+    <key alias="protect">Javni pristup</key>
+    <key alias="publish">Objavi</key>
+    <key alias="unpublish">Poništi objavu</key>
+    <key alias="refreshNode">Osvježi</key>
+    <key alias="republish">Ponovna objava cijelog weba</key>
+    <key alias="remove">Ukloni</key>
+    <key alias="rename" version="7.3.0">Preimenuj</key>
+    <key alias="restore" version="7.3.0">Obnovi</key>
+    <key alias="SetPermissionsForThePage">Postavi dozvole za stranicu %0%</key>
+    <key alias="chooseWhereToCopy">Odaberi gdje kopirati</key>
+    <key alias="chooseWhereToMove">Odaberi gdje premjestiti</key>
+    <key alias="toInTheTreeStructureBelow">u strukturi stabla ispod</key>
+    <key alias="infiniteEditorChooseWhereToCopy">Odaberi gdje kopirati odabrane stavke</key>
+    <key alias="infiniteEditorChooseWhereToMove">Odaberi gdje premjestiti odabrane stavke</key>
+    <key alias="wasMovedTo">je premješteno u</key>
+    <key alias="wasCopiedTo">je kopirano u</key>
+    <key alias="wasDeleted">je obrisano</key>
+    <key alias="rights">Dozvole</key>
+    <key alias="rollback">Vrati na stariju verziju</key>
+    <key alias="sendtopublish">Pošalji na Objavu</key>
+    <key alias="sendToTranslate">Pošalji na Prevođenje</key>
+    <key alias="setGroup">Postavi grupu</key>
+    <key alias="sort">Sortiraj</key>
+    <key alias="translate">Prevedi</key>
+    <key alias="update">Ažuriraj</key>
+    <key alias="setPermissions">Postavi dozvole</key>
+    <key alias="unlock">Otključaj</key>
+    <key alias="createblueprint">Kreiraj predložak Sadržaja</key>
+    <key alias="resendInvite">Ponovno pošalji Pozivnicu</key>
+  </area>
+  <area alias="actionCategories">
+    <key alias="content">Sadržaj</key>
+    <key alias="administration">Administracija</key>
+    <key alias="structure">Struktura</key>
+    <key alias="other">Ostalo</key>
+  </area>
+  <area alias="actionDescriptions">
+    <key alias="assignDomain">Omogući pristup dodjeli kulture i imena hosta</key>
+    <key alias="auditTrail">Dopusti pristup za pregled povijesti zapisa čvora</key>
+    <key alias="browse">Dosuti pristup za pregled čvora</key>
+    <key alias="changeDocType">Dopusti pristup za promjenu tipa dokumenta za čvor</key>
+    <key alias="copy">Dopusti pristup za kopiranje čvora</key>
+    <key alias="create">Dopusti pristup za kreiranje čvorova</key>
+    <key alias="delete">Dopusti pristup za brisanje čvorova</key>
+    <key alias="move">Dopusti pristup za premještaj čvora</key>
+    <key alias="protect">Dopusti pristup za promjenu javnog pristupa čvoru</key>
+    <key alias="publish">Dopusti pristup za objavu čvora</key>
+    <key alias="unpublish">Dopusti pristup za poništenje objave čvora</key>
+    <key alias="rights">Dopusti pristup za promjenu dozvola za čvor</key>
+    <key alias="rollback">Dopusti pristup za mogućnost vraćanja čvora na prethodno stanje</key>
+    <key alias="sendtopublish">Dopusti pristup za slanje čvora na odobrenje prije objave</key>
+    <key alias="sendToTranslate">Dopusti pristup za slanje čvora na prevođenje</key>
+    <key alias="sort">Dopusti pristup za mogućnost sortiranja čvorova</key>
+    <key alias="translate">Dopusti pristup za prijevod čvora</key>
+    <key alias="update">Dopusti pristup za spremanje čvora</key>
+    <key alias="createblueprint">Dopusti pristup za kreiranje predloška Sadržaja</key>
+  </area>
+  <area alias="apps">
+    <key alias="umbContent">Sadržaj</key>
+    <key alias="umbInfo">Info</key>
+  </area>
+  <area alias="assignDomain">
+    <key alias="permissionDenied">Dozvola odbijena.</key>
+    <key alias="addNew">Dodaj novu Domenu</key>
+    <key alias="remove">Ukloni</key>
+    <key alias="invalidNode">Nevažeći čvor.</key>
+    <key alias="invalidDomain">Jedna ili više domana imaju nevažeći format.</key>
+    <key alias="duplicateDomain">Domena je već dodijeljena.</key>
+    <key alias="language">Jezik</key>
+    <key alias="domain">Domena</key>
+    <key alias="domainCreated">Nova domena '%0%' je kreirana</key>
+    <key alias="domainDeleted">Domena '%0%' je obrisana</key>
+    <key alias="domainExists">Domena '%0%' je već dodijeljena</key>
+    <key alias="domainUpdated">Domena '%0%' je ažurirana</key>
+    <key alias="orEdit">Uredi trenutne Domene</key>
+    <key alias="domainHelpWithVariants">
+    	<![CDATA[Važeći nazivi domena su: "example.com", "www.example.com", "example.com:8080", or "https://www.example.com/".
+     Nadalje podržane su i putevi prve razine u domenama, npr. "example.com/en" or "/en".]]></key>
+    <key alias="inherit">Naslijedi</key>
+    <key alias="setLanguage">Kultura</key>
+	<key alias="setLanguageHelp"><![CDATA[Postavi kulturu za čvorove ispod trenutnog čvora,<br /> ili naslijedi kulturu sa roditeljskog čvora. Primjenjivat će se<br />
+  i na trenutni čvor, osim ako se ne odnosi i na domenu niže.]]>
+	</key>
+    <key alias="setDomains">Domene</key>
+  </area>
+  <area alias="buttons">
+    <key alias="clearSelection">Obriši odabir</key>
+    <key alias="select">Odaberi</key>
+    <key alias="somethingElse">Uradi nešto drugo</key>
+    <key alias="bold">Podebljano</key>
+    <key alias="deindent">Odustani od Uvlačenja Odlamka</key>
+    <key alias="formFieldInsert">Umetni iz polja</key>
+    <key alias="graphicHeadline">Umetni grafički naslov</key>
+    <key alias="htmlEdit">Uredi Html</key>
+    <key alias="indent">Uvuci Odlomak</key>
+    <key alias="italic">Nakošeno</key>
+    <key alias="justifyCenter">Centrirano</key>
+    <key alias="justifyLeft">Poravnanje Lijevo</key>
+    <key alias="justifyRight">Poravnanje Desno</key>
+    <key alias="linkInsert">Umetni Link</key>
+    <key alias="linkLocal">Umetni lokalni link (sidro)</key>
+    <key alias="listBullet">Obična Lista</key>
+    <key alias="listNumeric">Numerirana Lista</key>
+    <key alias="macroInsert">Umetni makro</key>
+    <key alias="pictureInsert">Umetni Sliku</key>
+    <key alias="publishAndClose">Objavi i zatvori</key>
+    <key alias="publishDescendants">Objava s nasljeđenima</key>
+    <key alias="relations">Uredi relacije</key>
+    <key alias="returnToList">Povratak na listu</key>
+    <key alias="save">Spremi</key>
+    <key alias="saveAndClose">Spremi i zatvori</key>
+    <key alias="saveAndPublish">Spremi i objavi</key>
+    <key alias="saveAndSchedule">Spremi i zakaži</key>
+    <key alias="saveToPublish">Spremi i pošalji na odobrenje</key>
+    <key alias="saveListView">Spremi pregled liste</key>
+    <key alias="schedulePublish">Zakazivanje</key>
+    <key alias="showPage">Pregled</key>
+    <key alias="saveAndPreview">Spremi i pregledaj</key>
+    <key alias="showPageDisabled">Pregled je onemogućen jer ne postoji dodjeljeni predložak.</key>
+    <key alias="styleChoose">Odaberi stil</key>
+    <key alias="styleShow">Prikaži stilove</key>
+    <key alias="tableInsert">Umetni tablicu</key>
+    <key alias="generateModelsAndClose">Generiraj modele i zatvori</key>
+    <key alias="saveAndGenerateModels">Spremi i generiraj modele</key>
+    <key alias="undo">Poništi</key>
+    <key alias="redo">Vrati</key>
+    <key alias="rollback">Vrati na staro</key>
+    <key alias="deleteTag">Obriši oznaku</key>
+    <key alias="confirmActionCancel">Odustani</key>
+    <key alias="confirmActionConfirm">Potvrdi</key>
+	<key alias="morePublishingOptions">Više opcija objave</key>
+    <key alias="submitChanges">Potvrdi</key>
+    <key alias="submitChangesAndClose">Potvrdi i zatvori</key>
+  </area>
+  <area alias="auditTrails">
+    <key alias="atViewingFor">Pregled za</key>
+    <key alias="delete">Sadržaj je obrisan</key>
+    <key alias="unpublish">Poništena objava Sadržaja</key>
+    <key alias="unpublishvariant">Poništena je objava sadržaja za jezike: %0% </key>
+    <key alias="publish">Sadržaj je spremljen i objavljen</key>
+    <key alias="publishvariant">Sadržaj je spremljen i objavljen za jezike: %0% </key>
+    <key alias="save">Sadržaj je spremljen</key>
+    <key alias="savevariant">Sadržaj je spremljen za jezike: %0%</key>
+    <key alias="move">Sadržaj je premješten</key>
+    <key alias="copy">Sadržaj je kopiran</key>
+    <key alias="rollback">Sadržaj je vraćen na stariju verziju</key>
+    <key alias="sendtopublish">Sadržaj je poslan na objavu</key>
+    <key alias="sendtopublishvariant">Sadržaj je poslan na objavu za jezike: %0%</key>
+    <key alias="sort">Korisnik je sortirao stavke</key>
+    <key alias="custom">%0%</key>
+    <key alias="smallCopy">Kopiraj</key>
+    <key alias="smallPublish">Objava</key>
+    <key alias="smallPublishVariant">Objava</key>
+    <key alias="smallMove">Premjesti</key>
+    <key alias="smallSave">Spremi</key>
+    <key alias="smallSaveVariant">Spremi</key>
+    <key alias="smallDelete">Obriši</key>
+    <key alias="smallUnpublish">Poništi objavu</key>
+    <key alias="smallUnpublishVariant">Poništi objavu</key>
+    <key alias="smallRollBack">Vrati na stariju verziju</key>
+    <key alias="smallSendToPublish">Pošalji na Objavu</key>
+    <key alias="smallSendToPublishVariant">Pošalji na Objavu</key>
+    <key alias="smallSort">Sortiraj</key>
+    <key alias="smallCustom">Prilagođeno</key>
+    <key alias="historyIncludingVariants">Povijest (sve varijante)</key>
+  </area>
+  <area alias="changeDocType">
+    <key alias="changeDocTypeInstruction">Kako bi promijenili tip dokumenta za odabrani  sadržaj, prvo odaberite s liste validativni tip dokumenta za ovu lokaciju.</key>
+    <key alias="changeDocTypeInstruction2">Then confirm and/or amend the mapping of properties from the current type to the new, and click Save.</key>
+    <key alias="contentRepublished">Sadržaj je ponovno objavljen.</key>
+    <key alias="currentProperty">Trenutno Svojstvo</key>
+    <key alias="currentType">Ternutan tip</key>
+    <key alias="docTypeCannotBeChanged">Tip Dokumenta ne može biti promijenjen, jer ne postoje validativne alternativne zamjene.  An alternative will be valid if it is allowed under the parent of the selected content item and that all existing child content items are allowed to be created under it.</key>
+    <key alias="docTypeChanged">Tip Dokumenta je promijenjen</key>
+    <key alias="mapProperties">Mapiraj Svojstva</key>
+    <key alias="mapToProperty">Mapiraj u Svojstvo</key>
+    <key alias="newTemplate">Novi predložak</key>
+    <key alias="newType">Novi Tip dokumenta</key>
+    <key alias="none">none</key>
+    <key alias="selectedContent">Sadržaj</key>
+    <key alias="selectNewDocType">Odaberi Novi Tip Dokumenta</key>
+    <key alias="successMessage">Tip dokumenta odabranog sadržaja uspješno je promijenjen u [new type] i pripadajuća svojstva su mapirana:</key>
+    <key alias="to">u</key>
+    <key alias="validationErrorPropertyWithMoreThanOneMapping">Nije moguće završiti mapiranje svojstava zato jer jedno ili više svojstava ima više od jednog definiranih mapiranja.</key>
+    <key alias="validDocTypesNote">Only alternate types valid for the current location are displayed.</key>
+  </area>
+  <area alias="codefile">
+    <key alias="createFolderFailedById">Failed to create a folder under parent with ID %0%</key>
+    <key alias="createFolderFailedByName">Failed to create a folder under parent with name %0%</key>
+    <key alias="createFolderIllegalChars">The folder name cannot contain illegal characters.</key>
+    <key alias="deleteItemFailed">Neuspješno brisanje stavke: %0%</key>
+  </area>
+  <area alias="content">
+    <key alias="isPublished" version="7.2">Je Objavljeno</key>
+    <key alias="about">Više o ovoj stranici</key>
+    <key alias="alias">Alias</key>
+    <key alias="alternativeTextHelp">(kako bi opisali sliku nekome preko telefona)</key>
+    <key alias="alternativeUrls">Alternativni Linkovi</key>
+    <key alias="clickToEdit">Klikni za uređivanje stavke</key>
+    <key alias="createBy">Kreirano od strane</key>
+    <key alias="createByDesc" version="7.0">Originalni autor</key>
+    <key alias="updatedBy" version="7.0">Ažurirano od strane</key>
+    <key alias="createDate">Kreirano</key>
+    <key alias="createDateDesc" version="7.0">Datum/vrijeme kada je dokument kreiran</key>
+    <key alias="documentType">Tip Dokumenta</key>
+    <key alias="editing">Uređivanje</key>
+    <key alias="expireDate">Ukloni na</key>
+    <key alias="itemChanged">Ova stavka je promijenjena nakon objave</key>
+    <key alias="itemNotPublished">Ova stavka nije objavljena</key>
+    <key alias="lastPublished">Zadnje objavljeno</key>
+    <key alias="noItemsToShow">Nema stavki za prikaz</key>
+    <key alias="listViewNoItems" version="7.1.5">Nema stavki u listi za prikaz.</key>
+    <key alias="listViewNoContent">Sadržaj nije dodan</key>
+    <key alias="listViewNoMembers">Članovi nisu dodani</key>
+    <key alias="mediatype">Tip Media</key>
+    <key alias="mediaLinks">Link na stavku media</key>
+    <key alias="membergroup">Grupa Članova</key>
+    <key alias="memberrole">Uloge</key>
+    <key alias="membertype">Tip Člana</key>
+    <key alias="noChanges">Nisu učinjene nikakve promjene</key>
+    <key alias="noDate">Nije odabran datum</key>
+    <key alias="nodeName">Naslov stranice</key>
+    <key alias="noMediaLink">Ova stavka medije nema linka</key>
+    <key alias="noProperties">Sadržaj ne može biti dodan za ovu stavku</key>
+    <key alias="otherElements">Svojstva</key>
+    <key alias="parentNotPublished">Ovaj dokument je objavljen, ali nije vidljiv jer njegov roditelj '%0%' nije objavljen</key>
+    <key alias="parentCultureNotPublished">Ova kultura je objavljena, ali nije vidljiva zato jer nije objavljena na roditelju '%0%'</key>
+    <key alias="parentNotPublishedAnomaly">Ovaj dokument je objavljen, ali nije u cache memoriji</key>
+    <key alias="getUrlException">Nije moguće kreirati URL</key>
+    <key alias="routeError">Ovaj dokument je objavljen, ali bi se njegova url adresa kosila sa sadržajem %0%</key>
+    <key alias="routeErrorCannotRoute">Ovaj dokument je objavljen, ali negova url daresa ne može biti preusmjerena</key>
+    <key alias="publish">Objava</key>
+    <key alias="published">Objavljeno</key>
+    <key alias="publishedPendingChanges">Objavljeno (promjene na čekanju)</key>
+    <key alias="publishStatus">Status Objave</key>
+    <key alias="publishDescendantsHelp"><![CDATA[Click <em>Objava s potomcima</em> za objaviti <strong>%0%</strong> i sav sadržaj ispod kako bi i njihov sadržaj bio javno vidljiv.]]></key>
+    <key alias="publishDescendantsWithVariantsHelp"><![CDATA[Click <em>Objava s potomcima</em> za objaviti <strong>odabranih jezika</strong> i odabrnih jezika sadržaja stavki ispod kako bi njihov sadržaj bio javno vidljiv.]]></key>
+    <key alias="releaseDate">Objavi na</key>
+    <key alias="unpublishDate">Poništi objavljanje na</key>
+    <key alias="removeDate">Ukloni Datum</key>
+    <key alias="setDate">Postavi datum</key>
+    <key alias="sortDone">Redoslijed sortiranja je ažurirano</key>
+    <key alias="sortHelp">Za sortiranje čvorova, jednostavno pomaknite čvor ili kliknite na naslov kolone. Možete odabrati više čvorova odjednom držeći tipku "shift" ili "control" prilikom odabira čvorova</key>
+    <key alias="statistics">Statistike</key>
+    <key alias="titleOptional">Naslov (opcionalno)</key>
+    <key alias="altTextOptional">Alternativni tekst (opcionalno)</key>
+    <key alias="type">Tip</key>
+    <key alias="unpublish">Poništi objavu</key>
+    <key alias="unpublished">Neobjavljeno</key>
+    <key alias="notCreated">Nije kreirano</key>
+    <key alias="updateDate">Zadnje uređivano</key>
+    <key alias="updateDateDesc" version="7.0">Datum/vrijeme kada je dokument uređivan</key>
+    <key alias="uploadClear">Ukloni datoteku(e)</key>
+    <key alias="uploadClearImageContext">Klikni ovdje kako bi uklonili sliku iz stavke media-e</key>
+    <key alias="uploadClearFileContext">Klikni ovdje kako bi uklonili datoteku iz stavke media-e</key>
+    <key alias="urls">Link na dokument</key>
+    <key alias="memberof">Član grupe(a)</key>
+    <key alias="notmemberof">Nije član grupe(a)</key>
+    <key alias="childItems" version="7.0">Child items</key>
+    <key alias="target" version="7.0">Target</key>
+    <key alias="scheduledPublishServerTime">This translates to the following time on the server:</key>
+    <key alias="scheduledPublishDocumentation"><![CDATA[<a href="https://our.umbraco.com/documentation/Getting-Started/Data/Scheduled-Publishing/#timezones" target="_blank">Što ovo znači?</a>]]></key>
+    <key alias="nestedContentDeleteItem">Jeste li sigurni da želiti obrisati ovu stavku?</key>
+	<key alias="nestedContentDeleteAllItems">Are you sure you want to delete all items?</key>
+    <key alias="nestedContentEditorNotSupported">Svojstvo %0% koristi editor %1% kojeg ne podržava Nested Content.</key>
+    <key alias="nestedContentNoContentTypes">Niti jedna vrsta sadržaja nije konfigurirana za ovo svojstvo.</key>
+    <key alias="nestedContentAddElementType">Add element type</key>
+    <key alias="nestedContentSelectElementTypeModalTitle">Select element type</key>
+    <key alias="nestedContentGroupHelpText">Select the group whose properties should be displayed. If left blank, the first group on the element type will be used.</key>
+    <key alias="nestedContentTemplateHelpTextPart1">Enter an angular expression to evaluate against each item for its name. Use</key>
+    <key alias="nestedContentTemplateHelpTextPart2">to display the item index</key>
+    <key alias="addTextBox">Dodaj text box</key>
+    <key alias="removeTextBox">Ukloni ovaj text box</key>
+    <key alias="contentRoot">Content root</key>
+    <key alias="includeUnpublished">Include drafts: also publish unpublished content items.</key>
+    <key alias="isSensitiveValue">This value is hidden. If you need access to view this value please contact your website administrator.</key>
+    <key alias="isSensitiveValue_short">This value is hidden.</key>
+    <key alias="languagesToPublishForFirstTime">What languages would you like to publish? All languages with content are saved!</key>
+    <key alias="languagesToPublish">What languages would you like to publish?</key>
+    <key alias="languagesToSave">What languages would you like to save?</key>
+    <key alias="languagesToSaveForFirstTime">All languages with content are saved on creation!</key>
+    <key alias="languagesToSendForApproval">What languages would you like to send for approval?</key>
+    <key alias="languagesToSchedule">What languages would you like to schedule?</key>
+    <key alias="languagesToUnpublish">Select the languages to unpublish. Unpublishing a mandatory language will unpublish all languages.</key>
+    <key alias="publishedLanguages">Published Languages</key>
+    <key alias="unpublishedLanguages">Unpublished Languages</key>
+    <key alias="unmodifiedLanguages">Unmodified Languages</key>
+    <key alias="untouchedLanguagesForFirstTime">These languages haven't been created</key>
+    <key alias="variantsWillBeSaved">All new variants will be saved.</key>
+    <key alias="variantsToPublish">Which variants you would like to publish?</key>
+    <key alias="variantsToSave">Choose which variants to be saved.</key>
+    <key alias="variantsToSendForApproval">Pick variants to send for approval.</key>
+    <key alias="variantsToSchedule">Set scheduled publishing...</key>
+    <key alias="variantsToUnpublish">Select the variants to unpublish. Unpublishing a mandatory language will unpublish all variants.</key>
+    <key alias="publishRequiresVariants">The following variants is required for publishing to take place:</key>
+    <key alias="notReadyToPublish">We are not ready to Publish</key>
+    <key alias="readyToPublish">Spremo za Objavu?</key>
+    <key alias="readyToSave">Spremno za Spremanje?</key>
+    <key alias="sendForApproval">Pošalji na odobrenje</key>
+    <key alias="schedulePublishHelp">Select the date and time to publish and/or unpublish the content item.</key>
+    <key alias="createEmpty">Kreoraj novo</key>
+    <key alias="createFromClipboard">Zapijepi iz međuspremnika</key>
+	<key alias="nodeIsInTrash">This item is in the Recycle Bin</key>
+  </area>
+  <area alias="blueprints">
+    <key alias="createBlueprintFrom">Kreiraj novi predložak Sadržaja iz '%0%'</key>
+    <key alias="blankBlueprint">Prazno</key>
+    <key alias="selectBlueprint">Odaberi predložak Sadržaja</key>
+    <key alias="createdBlueprintHeading">Predložak Sadržaja kreiran</key>
+    <key alias="createdBlueprintMessage">Predložak Sadržaja kreiran je iz '%0%'</key>
+    <key alias="duplicateBlueprintMessage">Još jedan predložak Sadržaja sa istim imenom već postoji</key>
+    <key alias="blueprintDescription">Predložak Sadržaja je predefinirani sadržaj koji urednik može odabrati za bazno korištenje prilikom izrade novog sadržaja</key>
+  </area>
+  <area alias="media">
+    <key alias="clickToUpload">Klikni za prijenos</key>
+    <key alias="orClickHereToUpload">ili klikni kako bi odabrali datoteke</key>
+    <key alias="dragFilesHereToUpload">Možete ovdje ispustiti datoteke za prijenos</key>
+    <key alias="disallowedFileType">Nije moguće prenjeti ovaj dokument jer nije odobrenog formata</key>
+    <key alias="maxFileSize">Makimalna veličina je</key>
+    <key alias="mediaRoot">Media root</key>
+    <key alias="moveFailed">Premještanje media nije uspjelo</key>
+    <key alias="moveToSameFolderFailed">Parent and destination folders cannot be the same</key>
+    <key alias="copyFailed">Kopiranje media nije uspjelo</key>
+    <key alias="createFolderFailed">Nije uspjelo kreiranje mape ispod roditelja id %0%</key>
+    <key alias="renameFolderFailed">Nije uspjelo preimenovanje mape sa id %0%</key>
+	<key alias="dragAndDropYourFilesIntoTheArea">Drag and drop your file(s) into the area</key>
+    <key alias="uploadNotAllowed">Upload is not allowed in this location.</key>
+  </area>
+  <area alias="member">
+    <key alias="createNewMember">Kreiraj novog člana</key>
+    <key alias="allMembers">Svi Članovi</key>
+    <key alias="memberGroupNoProperties">Članovi grupa nemaju dodatnih svojstva za uređivanje.</key>
+  </area>
+  <area alias="create">
+    <key alias="chooseNode">Gdje želite kreirati novo %0%</key>
+    <key alias="createUnder">Kreiraj stavku ispod</key>
+    <key alias="createContentBlueprint">Select the document type you want to make a content template for</key>
+    <key alias="enterFolderName">Upiši naziv mape</key>
+    <key alias="updateData">Odaberi tip i naziv</key>
+    <key alias="noDocumentTypes" version="7.0"><![CDATA[There are no allowed document types available for creating content here. You must enable these in <strong>Document Types</strong> within the <strong>Settings</strong> section, by editing the <strong>Allowed child node types</strong> under <strong>Permissions</strong>.]]></key>
+	<key alias="noDocumentTypesAtRoot"><![CDATA[There are no document types available for creating content here. You must create these in <strong>Document Types</strong> within the <strong>Settings</strong> section.]]></key>
+    <key alias="noDocumentTypesWithNoSettingsAccess">The selected page in the content tree doesn't allow for any pages to be created below it.</key>
+    <key alias="noDocumentTypesEditPermissions">Uredi dozvole za ovaj tip dokumenta</key>
+	<key alias="noDocumentTypesCreateNew">Create a new document type</key>
+    <key alias="noDocumentTypesAllowedAtRoot"><![CDATA[There are no allowed document types available for creating content here. You must enable these in <strong>Document Types</strong> within the <strong>Settings</strong> section, by changing the <strong>Allow as root</strong> option under <strong>Permissions</strong>.]]></key>
+    <key alias="noMediaTypes" version="7.0"><![CDATA[There are no allowed media types available for creating media here. You must enable these in <strong>Media Types Types</strong> within the <strong>Settings</strong> section, by editing the <strong>Allowed child node types</strong> under <strong>Permissions</strong>.]]></key>
+    <key alias="noMediaTypesWithNoSettingsAccess">Odabrana stavka media-e u strukturi stabla ne dopušta kreiranje niti jedne druge mediu ispod nje.</key>
+    <key alias="noMediaTypesEditPermissions">Uredi dozvole za ovaj tip media-e</key>
+    <key alias="documentTypeWithoutTemplate">Tip Dokumenta bez predloška</key>
+    <key alias="newFolder">Nova mapa</key>
+    <key alias="newDataType">Novi tip podatka</key>
+    <key alias="newJavascriptFile">Nova JavaScript datoteka</key>
+    <key alias="newEmptyPartialView">Novi prazni partial view</key>
+    <key alias="newPartialViewMacro">Novi partial view macro</key>
+    <key alias="newPartialViewFromSnippet">Novi partial view iz predloška</key>
+    <key alias="newPartialViewMacroFromSnippet">Novi partial view macro iz predloška</key>
+    <key alias="newPartialViewMacroNoMacro">Novi partial view macro (bez macro-a)</key>
+    <key alias="newStyleSheetFile">Nova style sheet datoteka</key>
+    <key alias="newRteStyleSheetFile">Novi Rich Text Editor style sheet datoteka</key>
+  </area>
+  <area alias="dashboard">
+    <key alias="browser">Pregledaj svoju web stranicu</key>
+    <key alias="dontShowAgain">- Sakrij</key>
+    <key alias="nothinghappens">Ako se Umbraco ne otvara, možda ćete morati dopustiti otvaranje popupo-ova za ovu stranicu</key>
+    <key alias="openinnew">otvorio se u novom prozoru</key>
+    <key alias="restart">Ponovno pokreni</key>
+    <key alias="visit">Posjeti</key>
+    <key alias="welcome">Dobrodošli</key>
+  </area>
+  <area alias="prompt">
+    <key alias="stay">Ostani</key>
+    <key alias="discardChanges">Poništi promjene</key>
+    <key alias="unsavedChanges">Imate ne spremljene promjene</key>
+    <key alias="unsavedChangesWarning">Želite li izaći s ove stranice? - imate ne spreljene promjene</key>
+    <key alias="confirmListViewPublish">Objavljivanje učinit će odabrane stavke vidljivima na web stranici.</key>
+    <key alias="confirmListViewUnpublish">Poništavanje objave uklonit će odabrane stavke i sve njihove nasljednike sa web stranice.</key>
+    <key alias="confirmUnpublish">Poništavanje objave uklonit će ovu stranicu i sve njezine nasljednike sa web stranice.</key>
+    <key alias="doctypeChangeWarning">Imate ne spremljenih promjena. Promjene na Tipu Dokumenta poništit će promjene.</key>
+  </area>
+  <area alias="bulk">
+    <key alias="done">Gotovo</key>
+    <key alias="deletedItem">Obrisana %0% stavka</key>
+    <key alias="deletedItems">Obrisano %0% stavaka</key>
+    <key alias="deletedItemOfItem">Obrisano %0% od %1% stavke</key>
+    <key alias="deletedItemOfItems">Obrisano %0% od %1% stavaka</key>
+    <key alias="publishedItem">Objavljena %0% stavka</key>
+    <key alias="publishedItems">Objavljeno %0% stavaka</key>
+    <key alias="publishedItemOfItem">Objavljeno %0% od %1% stavke</key>
+    <key alias="publishedItemOfItems">Objavljeno %0% od %1% stavaka</key>
+    <key alias="unpublishedItem">Neobjavljena %0% stavka</key>
+    <key alias="unpublishedItems">Neobjavljeno %0% stavaka</key>
+    <key alias="unpublishedItemOfItem">Neobjavljeno %0% od %1% stavke</key>
+    <key alias="unpublishedItemOfItems">Neobjavljeno %0% od %1% stavaka</key>
+    <key alias="movedItem">Premještena %0% stavka</key>
+    <key alias="movedItems">Premješteno %0% stavaka</key>
+    <key alias="movedItemOfItem">Premješteno %0% od %1% stavke</key>
+    <key alias="movedItemOfItems">Premješteno %0% od %1% stavaka</key>
+    <key alias="copiedItem">Kopirana %0% stavka</key>
+    <key alias="copiedItems">Kopirano %0% stavaka</key>
+    <key alias="copiedItemOfItem">Kopirano %0% od %1% stavke</key>
+    <key alias="copiedItemOfItems">Kopirano %0% od %1% stavaka</key>
+  </area>
+  <area alias="defaultdialogs">
+    <key alias="nodeNameLinkPicker">Naziv Linka</key>
+    <key alias="urlLinkPicker">Link</key>
+    <key alias="anchorLinkPicker">Sidro / querystring</key>
+    <key alias="anchorInsert">Naziv</key>
+    <key alias="closeThisWindow">Zatvori ovaj prozor</key>
+    <key alias="confirmdelete">Jeste li sigurni da želite obrisati</key>
+    <key alias="confirmdisable">Jeste li sigurni da želite onemogućiti</key>
+    <key alias="confirmremove">Are you sure you want to remove</key>
+    <key alias="confirmremoveusageof"><![CDATA[Are you sure you want to remove the usage of <b>%0%</b>]]></key>
+    <key alias="confirmremovereferenceto"><![CDATA[Are you sure you want to remove the reference to <b>%0%</b>]]></key>
+    <key alias="confirmlogout">Jeste li sigurni?</key>
+    <key alias="confirmSure">Jeste li sigurni?</key>
+    <key alias="cut">Izreži</key>
+    <key alias="editdictionary">Uredi stavku Riječnika</key>
+    <key alias="editlanguage">Uredi Jezik</key>
+    <key alias="editSelectedMedia">Edit selected media</key>
+    <key alias="insertAnchor">Umetni lokalni link</key>
+    <key alias="insertCharacter">Umetni simbol</key>
+    <key alias="insertgraphicheadline">Umetni grafički naslov</key>
+    <key alias="insertimage">Umetni sliku</key>
+    <key alias="insertlink">Umetni link</key>
+    <key alias="insertMacro">Klikni za dodavanje Macro-a</key>
+    <key alias="inserttable">Umetni tablicu</key>
+    <key alias="languagedeletewarning">Ovo će obrisati jezik</key>
+    <key alias="languageChangeWarning">Changing the culture for a language may be an expensive operation and will result in the content cache and indexes being rebuilt</key>
+    <key alias="lastEdited">Zadnje uređivano</key>
+    <key alias="link">Link</key>
+    <key alias="linkinternal">Interni link:</key>
+    <key alias="linklocaltip">Kada se koriste lokalni linkovi, umetnite "#" ispred linka</key>
+    <key alias="linknewwindow">Otvori u novom prozoru?</key>
+    <key alias="macroContainerSettings">Macro postavke</key>
+    <key alias="macroDoesNotHaveProperties">Ovaj macro ne sadrži svojstva koja možete uređivati</key>
+    <key alias="paste">Zalijepi</key>
+    <key alias="permissionsEdit">Uredi dozvole za</key>
+    <key alias="permissionsSet">Postavi dozvole za</key>
+    <key alias="permissionsSetForGroup">Postavi dozvole za %0% za grupu korisnika %1%</key>
+    <key alias="permissionsHelp">Odaberi grupu korisnika za koju želite postaviti dozvole</key>
+    <key alias="recycleBinDeleting">The items in the recycle bin are now being deleted. Please do not close this window while this operation takes place</key>
+    <key alias="recycleBinIsEmpty">Koš za smeće sada je prazan</key>
+    <key alias="recycleBinWarning">Kada ss stavke obrisana iz koša za smeće, nestat će zauvijek</key>
+    <key alias="regexSearchError"><![CDATA[<a target='_blank' href='http://regexlib.com'>regexlib.com</a> webservis trenutno ima probleme u komunikaciji na koje ne možemo utjecati. Žao nam je zbog nastalih smetnji.]]></key>
+    <key alias="regexSearchHelp">Traži regular expression kako bi njime validirali polje unosa. Primjer: 'email, 'zip-code' 'url'</key>
+    <key alias="removeMacro">Ukloni Macro</key>
+    <key alias="requiredField">Obavezno Polje</key>
+    <key alias="sitereindexed">Web je ponovno indeksiran</key>
+    <key alias="siterepublished">Spremnik predmemorije web stranice je osvježen. Sav objavljen sadržaj je ažuriran prema zadnjoj verziji. Neobjavljen sadržaj je i dalje neobjavljen.</key>
+    <key alias="siterepublishHelp">Spremnik predmemorije web stranice bit će osvježen. Sav objavljen sadržaj bit će ažuriran prema zadnjoj verziji, dok neobjavljen sadržaj će i dalje ostati neobjavljen.</key>
+    <key alias="tableColumns">Broj kolona</key>
+    <key alias="tableRows">Broj redova</key>
+    <key alias="thumbnailimageclickfororiginal">Klikni na slika za prikaz pune veličine</key>
+    <key alias="treepicker">Odaberi stavku</key>
+    <key alias="viewCacheItem">Pregled Stavke Predmemorije</key>
+    <key alias="relateToOriginalLabel">Odnosi se na original</key>
+    <key alias="includeDescendants">Uključi nasljeđeno</key>
+    <key alias="theFriendliestCommunity">Prijateljska zajednica</key>
+    <key alias="linkToPage">Link na stranicu</key>
+    <key alias="openInNewWindow">Otvara poveznicu dokumenta u novom prozoru ili tabu</key>
+    <key alias="linkToMedia">Link na media-u</key>
+    <key alias="selectContentStartNode">Odaberi početni čvor sadržaja</key>
+    <key alias="selectMedia">Odaberi media-u</key>
+    <key alias="selectMediaType">Select media type</key>
+    <key alias="selectIcon">Odaberi ikonu</key>
+    <key alias="selectItem">Odaberi Stavku</key>
+    <key alias="selectLink">Odaberi link</key>
+    <key alias="selectMacro">Odaberi macro</key>
+    <key alias="selectContent">Odaberi sadržaj</key>
+    <key alias="selectContentType">Odabri tip sadržaja</key>
+    <key alias="selectMediaStartNode">Odaberi polazni čvor media-e</key>
+    <key alias="selectMember">Odaberi člana</key>
+    <key alias="selectMemberGroup">Odaberi grupu članova</key>
+    <key alias="selectMemberType">Select member type</key>
+    <key alias="selectNode">Odaberi čvor</key>
+    <key alias="selectSections">Odaberi seleciju</key>
+    <key alias="selectUser">Select user</key>
+    <key alias="selectUsers">Odaberi korsnike</key>
+    <key alias="noIconsFound">Nema pronađenih ikona</key>
+    <key alias="noMacroParams">Nema parametara za ovaj macro</key>
+    <key alias="noMacros">Nema dostupnih macro-a za umetanje</key>
+    <key alias="externalLoginProviders">Vanjski login provajderi</key>
+    <key alias="exceptionDetail">Detalji Iznimaka</key>
+    <key alias="stacktrace">Stacktrace</key>
+    <key alias="innerException">Unutarnja Iznimka</key>
+    <key alias="linkYour">Poveži svoj</key>
+    <key alias="unLinkYour">Poništi povezivnje svog</key>
+    <key alias="account">račun</key>
+    <key alias="selectEditor">Odabir urednika</key>
+    <key alias="selectEditorConfiguration">Select configuration</key>
+    <key alias="selectSnippet">Odabir predloška</key>
+    <key alias="variantdeletewarning">Ovo će obrisati čvor i sve njegove jezike. Ako želite obrisati jedan jezik, poništite radije objavu.</key>
+	<key alias="propertyuserpickerremovewarning"><![CDATA[This will remove the user <b>%0%</b>.]]></key>
+    <key alias="userremovewarning"><![CDATA[This will remove the user <b>%0%</b> from the <b>%1%</b> group]]></key>
+    <key alias="yesRemove">Yes, remove</key>
+  </area>
+  <area alias="dictionary">
+    <key alias="noItems">Nema stavaka riječnika</key>
+  </area>
+  <area alias="dictionaryItem">
+    <key alias="description"><![CDATA[
+      Uredite različite varijante jezika za stavku riječnika '<em>%0%</em>' navedene dolje ispod:
+   ]]></key>
+    <key alias="displayName">Naziv Kulture</key>
+    <key alias="changeKeyError"><![CDATA[
+      Stavka '%0%' već postoji.
+   ]]></key>
+    <key alias="overviewTitle">Pregled riječnika</key>
+  </area>
+  <area alias="examineManagement">
+    <key alias="configuredSearchers">Konfigurirani Pretraživači</key>
+    <key alias="configuredSearchersDescription">Prikazuje svojstva i alate za bilo koji konfigurirani Pretraživač (npr. kao multi-index pretraživač)</key>
+    <key alias="fieldValues">Vrijednosti polja</key>
+    <key alias="healthStatus">Status zdravlja</key>
+    <key alias="healthStatusDescription">Status zdravlja indexa i ako može biti pročitan</key>
+    <key alias="indexers">Indexers</key>
+    <key alias="indexInfo">Index info</key>
+    <key alias="indexInfoDescription">Lista svojstava indexa</key>
+    <key alias="manageIndexes">Upravljanje Examine-im index-ima</key>
+    <key alias="manageIndexesDescription">Omogućava vam pregled detalja svakog indexa i pruža neke alate za upravljanje index-ima</key>
+    <key alias="rebuildIndex">Obnovi index</key>
+    <key alias="rebuildIndexWarning"><![CDATA[
+      Ovo će uzrokovati obnavljanje indexa.<br />
+      Ovisno o količini sadržaja vaše web stranice, ovo bi moglo potrajati.<br />
+      Nije preporučljivo obnavljati index-e tijekom velike posjećenosti vaše web stranice ili u vrijeme kada urednik uređuje sadržaj stranice.
+     ]]>
+    </key>
+    <key alias="searchers">Pretraživači</key>
+    <key alias="searchDescription">Traži index i vidi rezultate</key>
+    <key alias="tools">Alati</key>
+    <key alias="toolsDescription">Alati za upravljanje index-ima</key>
+	<key alias="fields">fields</key>
+    <key alias="indexCannotRead">The index cannot be read and will need to be rebuilt</key>
+    <key alias="processIsTakingLonger">The process is taking longer than expected, check the umbraco log to see if there have been any errors during this operation</key>
+    <key alias="indexCannotRebuild">This index cannot be rebuilt because it has no assigned</key>
+    <key alias="iIndexPopulator">IIndexPopulator</key>
+  </area>
+  <area alias="placeholders">
+    <key alias="username">Upišite svoje korisničko ime</key>
+    <key alias="password">Upišite svoju lozinku</key>
+    <key alias="confirmPassword">Potvrdite svoju lozinku</key>
+    <key alias="nameentity">Upišite naziv %0%...</key>
+    <key alias="entername">Upišite ime...</key>
+    <key alias="enteremail">Upišite email...</key>
+    <key alias="enterusername">Upišite korisničko ime...</key>
+    <key alias="label">Oznaka...</key>
+    <key alias="enterDescription">Upišite opis...</key>
+    <key alias="search">Upišite za pretragu...</key>
+    <key alias="filter">Unesite pojam za filtriranje...</key>
+    <key alias="enterTags">Upišite tekst kako biste dodali oznake (pritisnite Enter nakon svakog unosa)...</key>
+    <key alias="email">Upišite svoj email</key>
+    <key alias="enterMessage">Upišite poruku...</key>
+    <key alias="usernameHint">Vaše korisničko ime jer obično vaš email</key>
+    <key alias="anchor">#value ili ?key=value</key>
+	<key alias="enterAlias">Upiši alias...</key>
+	<key alias="generatingAlias">Generiranje aliasa...</key>
+	<key alias="a11yCreateItem">Kreiraj stavku</key>
+	<key alias="a11yEdit">Uredi</key>
+	<key alias="a11yName">Naziv</key>
+  </area>
+  <area alias="editcontenttype">
+    <key alias="createListView" version="7.2">Kreiraj prilagođeni pregled liste</key>
+    <key alias="removeListView" version="7.2">Ukloni prilagođeni pregled liste</key>
+    <key alias="aliasAlreadyExists">Tip sadržaj, tip media ili tip član već postoje sa tim aliasom</key>
+  </area>
+  <area alias="renamecontainer">
+    <key alias="renamed">Preimenovano</key>
+    <key alias="enterNewFolderName">Upišite naziv mape</key>
+    <key alias="folderWasRenamed">%0% je preimenovano u %1%</key>
+  </area>
+  <area alias="editdatatype">
+    <key alias="addPrevalue">Add prevalue</key>
+    <key alias="dataBaseDatatype">Database datatype</key>
+    <key alias="guid">Property editor GUID</key>
+    <key alias="renderControl">Property editor</key>
+    <key alias="rteButtons">Buttons</key>
+    <key alias="rteEnableAdvancedSettings">Enable advanced settings for</key>
+    <key alias="rteEnableContextMenu">Enable context menu</key>
+    <key alias="rteMaximumDefaultImgSize">Maximum default size of inserted images</key>
+    <key alias="rteRelatedStylesheets">Related stylesheets</key>
+    <key alias="rteShowLabel">Show label</key>
+    <key alias="rteWidthAndHeight">Width and height</key>
+    <key alias="allPropTypes">All property types &amp; property data</key>
+    <key alias="willBeDeleted">using this data type will be deleted permanently, please confirm you want to delete these as well</key>
+    <key alias="yesDelete">Yes, delete</key>
+    <key alias="andAllRelated">and all property types &amp; property data using this data type</key>
+    <key alias="selectFolder">Select the folder to move</key>
+    <key alias="inTheTree">to in the tree structure below</key>
+    <key alias="wasMoved">was moved underneath</key>
+	<key alias="hasReferencesDeleteConsequence"><![CDATA[Deleting <strong>%0%</strong> will delete the properties and their data from the following items]]></key>
+    <key alias="acceptDeleteConsequence">I understand this action will delete the properties and data based on this Data Type</key>
+  </area>
+  <area alias="errorHandling">
+    <key alias="errorButDataWasSaved">Your data has been saved, but before you can publish this page there are some errors you need to fix first:</key>
+    <key alias="errorChangingProviderPassword">The current membership provider does not support changing password (EnablePasswordRetrieval need to be true)</key>
+    <key alias="errorExistsWithoutTab">%0% already exists</key>
+    <key alias="errorHeader">There were errors:</key>
+    <key alias="errorHeaderWithoutTab">There were errors:</key>
+    <key alias="errorInPasswordFormat">The password should be a minimum of %0% characters long and contain at least %1% non-alpha numeric character(s)</key>
+    <key alias="errorIntegerWithoutTab">%0% must be an integer</key>
+    <key alias="errorMandatory">The %0% field in the %1% tab is mandatory</key>
+    <key alias="errorMandatoryWithoutTab">%0% is a mandatory field</key>
+    <key alias="errorRegExp">%0% at %1% is not in a correct format</key>
+    <key alias="errorRegExpWithoutTab">%0% is not in a correct format</key>
+  </area>
+  <area alias="errors">
+    <key alias="receivedErrorFromServer">Received an error from the server</key>
+    <key alias="dissallowedMediaType">The specified file type has been disallowed by the administrator</key>
+    <key alias="codemirroriewarning">NOTE! Even though CodeMirror is enabled by configuration, it is disabled in Internet Explorer because it's not stable enough.</key>
+    <key alias="contentTypeAliasAndNameNotNull">Please fill both alias and name on the new property type!</key>
+    <key alias="filePermissionsError">There is a problem with read/write access to a specific file or folder</key>
+    <key alias="macroErrorLoadingPartialView">Error loading Partial View script (file: %0%)</key>
+    <key alias="missingTitle">Please enter a title</key>
+    <key alias="missingType">Please choose a type</key>
+    <key alias="pictureResizeBiggerThanOrg">You're about to make the picture larger than the original size. Are you sure that you want to proceed?</key>
+    <key alias="startNodeDoesNotExists">Startnode deleted, please contact your administrator</key>
+    <key alias="stylesMustMarkBeforeSelect">Please mark content before changing style</key>
+    <key alias="stylesNoStylesOnPage">No active styles available</key>
+    <key alias="tableColMergeLeft">Please place cursor at the left of the two cells you wish to merge</key>
+    <key alias="tableSplitNotSplittable">You cannot split a cell that hasn't been merged.</key>
+	<key alias="propertyHasErrors">This property is invalid</key>
+    <key alias="errorPropertyEditorNotSupportedInElementTypes">Property '%0%' uses editor '%1%' which is not supported in Element Types.</key>
+  </area>
+  <area alias="general">
+	<key alias="options">Options</key>
+    <key alias="about">About</key>
+    <key alias="action">Akcija</key>
+    <key alias="actions">Akcije</key>
+    <key alias="add">Dodaj</key>
+    <key alias="alias">Alias</key>
+    <key alias="all">Svi</key>
+    <key alias="areyousure">Jeste li sigurni?</key>
+    <key alias="back">Natrag</key>
+    <key alias="backToOverview">Natrag na pregled</key>
+    <key alias="border">Border</key>
+    <key alias="by">by</key>
+    <key alias="cancel">Odustani</key>
+    <key alias="cellMargin">Cell margin</key>
+    <key alias="choose">Odaberi</key>
+    <key alias="clear">Clear</key>
+    <key alias="close">Zatvori</key>
+    <key alias="closewindow">Zatvori Prozor</key>
+    <key alias="comment">Komentiraj</key>
+    <key alias="confirm">Potvrdi</key>
+    <key alias="constrain">Odredi</key>
+    <key alias="constrainProportions">Odredi proporcije</key>
+    <key alias="content">Sadržaj</key>
+    <key alias="continue">Nastavi</key>
+    <key alias="copy">Kopiraj</key>
+    <key alias="create">Kreiraj</key>
+    <key alias="cropSection">Crop section</key>
+    <key alias="database">Baza podataka</key>
+    <key alias="date">Datum</key>
+    <key alias="default">Zadano</key>
+    <key alias="delete">Obriši</key>
+    <key alias="deleted">Obrisano</key>
+    <key alias="deleting">Brisanje...</key>
+    <key alias="design">Dizajn</key>
+    <key alias="dictionary">Riječnik</key>
+    <key alias="dimensions">Dimenzije</key>
+    <key alias="discard">Discard</key>
+    <key alias="down">Dolje</key>
+    <key alias="download">Preuzmi</key>
+    <key alias="edit">Uredi</key>
+    <key alias="edited">Uređeno</key>
+    <key alias="elements">Elementi</key>
+    <key alias="email">Email</key>
+    <key alias="error">Greška</key>
+    <key alias="field">Polje</key>
+    <key alias="findDocument">Pronađi</key>
+    <key alias="first">Prvi</key>
+    <key alias="focalPoint">Focal point</key>
+    <key alias="general">Općenito</key>
+    <key alias="groups">Grupe</key>
+    <key alias="group">Grupa</key>
+    <key alias="height">Visina</key>
+    <key alias="help">Pomoć</key>
+    <key alias="hide">Sakrij</key>
+    <key alias="history">Povijest</key>
+    <key alias="icon">Ikona</key>
+    <key alias="id">Id</key>
+    <key alias="import">Uvezi</key>
+    <key alias="includeFromsubFolders">Uključi podmape u pretrazi</key>
+	<key alias="excludeFromSubFolders">Search only this folder</key>
+    <key alias="info">Info</key>
+    <key alias="innerMargin">Unutarnja margina</key>
+    <key alias="insert">Umetni</key>
+    <key alias="install">Instaliraj</key>
+    <key alias="invalid">Nevažeće</key>
+    <key alias="justify">Poravnaj</key>
+    <key alias="label">Oznaka</key>
+    <key alias="language">Jezik</key>
+    <key alias="last">zadnji</key>
+    <key alias="layout">Layout</key>
+    <key alias="links">Linkovi</key>
+    <key alias="loading">Učitavanje</key>
+    <key alias="locked">Zaključano</key>
+    <key alias="login">Prijava</key>
+    <key alias="logoff">Odjava</key>
+    <key alias="logout">Odjava</key>
+    <key alias="macro">Macro</key>
+    <key alias="mandatory">Obavezno</key>
+    <key alias="message">Poruka</key>
+    <key alias="move">Premjesti</key>
+    <key alias="name">Naziv</key>
+    <key alias="new">Novo</key>
+    <key alias="next">Dalje</key>
+    <key alias="no">No</key>
+    <key alias="of">of</key>
+    <key alias="off">Off</key>
+    <key alias="ok">OK</key>
+    <key alias="open">Otvori</key>
+    <key alias="on">On</key>
+    <key alias="or">ili</key>
+    <key alias="orderBy">Poredaj po</key>
+    <key alias="password">Lozinka</key>
+    <key alias="path">Put</key>
+    <key alias="pleasewait">Trenutak molim...</key>
+    <key alias="previous">Prethodno</key>
+    <key alias="properties">Svojstva</key>
+    <key alias="rebuild">Obnovi</key>
+    <key alias="reciept">Email za primanje podataka obrasca</key>
+    <key alias="recycleBin">Koš za smeće</key>
+    <key alias="recycleBinEmpty">Koš za smeće je prazan</key>
+    <key alias="reload">Osvježi</key>
+    <key alias="remaining">Preostaje</key>
+    <key alias="remove">Ukloni</key>
+    <key alias="rename">Preimenuj</key>
+    <key alias="renew">Obnovi</key>
+    <key alias="required" version="7.0">Obavezno</key>
+    <key alias="retrieve">Dohvati</key>
+    <key alias="retry">Pokušaj ponovno</key>
+    <key alias="rights">Dozvole</key>
+    <key alias="scheduledPublishing">Planirano Objavljivanje</key>
+    <key alias="search">Traži</key>
+    <key alias="searchNoResult">Žao nam je, ne možemo pronaći to što tražite.</key>
+    <key alias="noItemsInList">Niti jedna stavka nije dodana</key>
+    <key alias="server">Server</key>
+    <key alias="settings">Postavke</key>
+    <key alias="show">Prikaži</key>
+    <key alias="showPageOnSend">Prikaži stranicu prilikom Slanja</key>
+    <key alias="size">Veličina</key>
+    <key alias="sort">Sortiraj</key>
+    <key alias="status">Status</key>
+    <key alias="submit">Potvrdi</key>
+    <key alias="success">Uspjeh</key>
+    <key alias="type">Tip</key>
+    <key alias="typeToSearch">Upišite za pretragu...</key>    <key alias="under">under</key>
+    <key alias="under">under</key>
+    <key alias="up">Gore</key>
+    <key alias="update">Ažuriraj</key>
+    <key alias="upgrade">Nadogradi</key>
+    <key alias="upload">Prenesi</key>
+    <key alias="url">Url</key>
+    <key alias="user">Korisnik</key>
+    <key alias="username">Korisničko ime</key>
+    <key alias="value">Vrijednost</key>
+    <key alias="view">Pregled</key>
+    <key alias="welcome">Dobrodošli...</key>
+    <key alias="width">Dužina</key>
+    <key alias="yes">Da</key>
+    <key alias="folder">Mapa</key>
+    <key alias="searchResults">Rezultati pretrage</key>
+    <key alias="reorder">Sortiraj</key>
+    <key alias="reorderDone">Završio sam sa sortiranjem</key>
+    <key alias="preview">Pregled</key>
+    <key alias="changePassword">Promjeni lozinku</key>
+    <key alias="to">u</key>
+    <key alias="listView">List view</key>
+    <key alias="saving">Spremanje...</key>
+    <key alias="current">trenutno</key>
+    <key alias="embed">Ugradi</key>
+    <key alias="selected">odabrano</key>
+	<key alias="other">Other</key>
+    <key alias="articles">Articles</key>
+    <key alias="videos">Videos</key>
+    <key alias="clear">Clear</key>
+    <key alias="installing">Installing</key>
+  </area>
+  <area alias="colors">
+    <key alias="blue">Blue</key>
+  </area>
+  <area alias="shortcuts">
+    <key alias="addGroup">Add group</key>
+    <key alias="addProperty">Dodaj svojstvo</key>
+    <key alias="addEditor">Add editor</key>
+    <key alias="addTemplate">Add template</key>
+    <key alias="addChildNode">Add child node</key>
+    <key alias="addChild">Add child</key>
+    <key alias="editDataType">Edit data type</key>
+    <key alias="navigateSections">Navigate sections</key>
+    <key alias="shortcut">Prečice</key>
+    <key alias="showShortcuts">prikaži prečice</key>
+    <key alias="toggleListView">Toggle list view</key>
+    <key alias="toggleAllowAsRoot">Toggle allow as root</key>
+    <key alias="commentLine">Comment/Uncomment lines</key>
+    <key alias="removeLine">Remove line</key>
+    <key alias="copyLineUp">Copy Lines Up</key>
+    <key alias="copyLineDown">Copy Lines Down</key>
+    <key alias="moveLineUp">Move Lines Up</key>
+    <key alias="moveLineDown">Move Lines Down</key>
+    <key alias="generalHeader">General</key>
+    <key alias="editorHeader">Editor</key>
+    <key alias="toggleAllowCultureVariants">Toggle allow culture variants</key>
+	<key alias="toggleAllowSegmentVariants">Toggle allow segmentation</key>
+  </area>
+  <area alias="graphicheadline">
+    <key alias="backgroundcolor">Pozadinska boja</key>
+    <key alias="bold">Podebljano</key>
+    <key alias="color">Boja teksta</key>
+    <key alias="font">Slova</key>
+    <key alias="text">Tekst</key>
+  </area>
+  <area alias="headers">
+    <key alias="page">Stranica</key>
+  </area>
+  <area alias="installer">
+    <key alias="databaseErrorCannotConnect">The installer cannot connect to the database.</key>
+    <key alias="databaseErrorWebConfig">Could not save the web.config file. Please modify the connection string manually.</key>
+    <key alias="databaseFound">Your database has been found and is identified as</key>
+    <key alias="databaseHeader">Database configuration</key>
+    <key alias="databaseInstall"><![CDATA[
+		  Press the <strong>install</strong> button to install the Umbraco %0% database
+		]]>
+    </key>
+    <key alias="databaseInstallDone"><![CDATA[Umbraco %0% has now been copied to your database. Press <strong>Next</strong> to proceed.]]></key>
+    <key alias="databaseNotFound"><![CDATA[<p>Database not found! Please check that the information in the "connection string" of the "web.config" file is correct.</p>
+              <p>To proceed, please edit the "web.config" file (using Visual Studio or your favourite text editor), scroll to the bottom, add the connection string for your database in the key named "UmbracoDbDSN" and save the file. </p>
+              <p>
+              Click the <strong>retry</strong> button when
+              done.<br /><a href="https://our.umbraco.com/documentation/Using-Umbraco/Config-files/webconfig7" target="_blank">
+			              More information on editing web.config here.</a></p>]]></key>
+    <key alias="databaseText"><![CDATA[To complete this step, you must know some information regarding your database server ("connection string").<br />
+        Please contact your ISP if necessary.
+        If you're installing on a local machine or server you might need information from your system administrator.]]></key>
+    <key alias="databaseUpgrade"><![CDATA[
+      <p>
+      Press the <strong>upgrade</strong> button to upgrade your database to Umbraco %0%</p>
+      <p>
+      Don't worry - no content will be deleted and everything will continue working afterwards!
+      </p>
+      ]]></key>
+    <key alias="databaseUpgradeDone"><![CDATA[Your database has been upgraded to the final version %0%.<br />Press <strong>Next</strong> to
+      proceed. ]]></key>
+    <key alias="databaseUpToDate"><![CDATA[Your current database is up-to-date!. Click <strong>next</strong> to continue the configuration wizard]]></key>
+    <key alias="defaultUserChangePass"><![CDATA[<strong>The Default users' password needs to be changed!</strong>]]></key>
+    <key alias="defaultUserDisabled"><![CDATA[<strong>The Default user has been disabled or has no access to Umbraco!</strong></p><p>No further actions needs to be taken. Click <b>Next</b> to proceed.]]></key>
+    <key alias="defaultUserPassChanged"><![CDATA[<strong>The Default user's password has been successfully changed since the installation!</strong></p><p>No further actions needs to be taken. Click <strong>Next</strong> to proceed.]]></key>
+    <key alias="defaultUserPasswordChanged">Lozinka je promijenjena!</key>
+    <key alias="greatStart">Get a great start, watch our introduction videos</key>
+    <key alias="licenseText">By clicking the next button (or modifying the umbracoConfigurationStatus in web.config), you accept the license for this software as specified in the box below. Notice that this Umbraco distribution consists of two different licenses, the open source MIT license for the framework and the Umbraco freeware license that covers the UI.</key>
+    <key alias="None">Not installed yet.</key>
+    <key alias="permissionsAffectedFolders">Affected files and folders</key>
+    <key alias="permissionsAffectedFoldersMoreInfo">More information on setting up permissions for Umbraco here</key>
+    <key alias="permissionsAffectedFoldersText">You need to grant ASP.NET modify permissions to the following files/folders</key>
+    <key alias="permissionsAlmostPerfect"><![CDATA[<strong>Your permission settings are almost perfect!</strong><br /><br />
+        You can run Umbraco without problems, but you will not be able to install packages which are recommended to take full advantage of Umbraco.]]></key>
+    <key alias="permissionsHowtoResolve">How to Resolve</key>
+    <key alias="permissionsHowtoResolveLink">Click here to read the text version</key>
+    <key alias="permissionsHowtoResolveText"><![CDATA[Watch our <strong>video tutorial</strong> on setting up folder permissions for Umbraco or read the text version.]]></key>
+    <key alias="permissionsMaybeAnIssue"><![CDATA[<strong>Your permission settings might be an issue!</strong>
+      <br/><br />
+      You can run Umbraco without problems, but you will not be able to create folders or install packages which are recommended to take full advantage of Umbraco.]]></key>
+    <key alias="permissionsNotReady"><![CDATA[<strong>Your permission settings are not ready for Umbraco!</strong>
+          <br /><br />
+          In order to run Umbraco, you'll need to update your permission settings.]]></key>
+    <key alias="permissionsPerfect"><![CDATA[<strong>Your permission settings are perfect!</strong><br /><br />
+              You are ready to run Umbraco and install packages!]]></key>
+    <key alias="permissionsResolveFolderIssues">Resolving folder issue</key>
+    <key alias="permissionsResolveFolderIssuesLink">Follow this link for more information on problems with ASP.NET and creating folders</key>
+    <key alias="permissionsSettingUpPermissions">Setting up folder permissions</key>
+    <key alias="permissionsText"><![CDATA[
+      Umbraco needs write/modify access to certain directories in order to store files like pictures and PDF's.
+      It also stores temporary data (aka: cache) for enhancing the performance of your website.
+    ]]></key>
+    <key alias="runwayFromScratch">I want to start from scratch</key>
+    <key alias="runwayFromScratchText"><![CDATA[
+        Your website is completely empty at the moment, so that's perfect if you want to start from scratch and create your own document types and templates.
+        (<a href="http://Umbraco.tv/documentation/videos/for-site-builders/foundation/document-types">learn how</a>)
+        You can still choose to install Runway later on. Please go to the Developer section and choose Packages.
+      ]]></key>
+    <key alias="runwayHeader">You've just set up a clean Umbraco platform. What do you want to do next?</key>
+    <key alias="runwayInstalled">Runway is installed</key>
+    <key alias="runwayInstalledText"><![CDATA[
+      You have the foundation in place. Select what modules you wish to install on top of it.<br />
+      This is our list of recommended modules, check off the ones you would like to install, or view the <a href="#" onclick="toggleModules(); return false;" id="toggleModuleList">full list of modules</a>
+      ]]></key>
+    <key alias="runwayOnlyProUsers">Only recommended for experienced users</key>
+    <key alias="runwaySimpleSite">I want to start with a simple website</key>
+    <key alias="runwaySimpleSiteText"><![CDATA[
+      <p>
+      "Runway" is a simple website providing some basic document types and templates. The installer can set up Runway for you automatically,
+        but you can easily edit, extend or remove it. It's not necessary and you can perfectly use Umbraco without it. However,
+        Runway offers an easy foundation based on best practices to get you started faster than ever.
+        If you choose to install Runway, you can optionally select basic building blocks called Runway Modules to enhance your Runway pages.
+        </p>
+        <small>
+        <em>Included with Runway:</em> Home page, Getting Started page, Installing Modules page.<br />
+        <em>Optional Modules:</em> Top Navigation, Sitemap, Contact, Gallery.
+        </small>
+      ]]></key>
+    <key alias="runwayWhatIsRunway">What is Runway</key>
+    <key alias="step1">Step 1/5 Accept license</key>
+    <key alias="step2">Step 2/5: Database configuration</key>
+    <key alias="step3">Step 3/5: Validating File Permissions</key>
+    <key alias="step4">Step 4/5: Check Umbraco security</key>
+    <key alias="step5">Step 5/5: Umbraco is ready to get you started</key>
+    <key alias="thankYou">Thank you for choosing Umbraco</key>
+    <key alias="theEndBrowseSite"><![CDATA[<h3>Browse your new site</h3>
+You installed Runway, so why not see how your new website looks.]]></key>
+    <key alias="theEndFurtherHelp"><![CDATA[<h3>Further help and information</h3>
+Get help from our award winning community, browse the documentation or watch some free videos on how to build a simple site, how to use packages and a quick guide to the Umbraco terminology]]></key>
+    <key alias="theEndHeader">Umbraco %0% is installed and ready for use</key>
+    <key alias="theEndInstallFailed"><![CDATA[To finish the installation, you'll need to
+        manually edit the <strong>/web.config file</strong> and update the AppSetting key <strong>UmbracoConfigurationStatus</strong> in the bottom to the value of <strong>'%0%'</strong>.]]></key>
+    <key alias="theEndInstallSuccess"><![CDATA[You can get <strong>started instantly</strong> by clicking the "Launch Umbraco" button below. <br />If you are <strong>new to Umbraco</strong>,
+you can find plenty of resources on our getting started pages.]]></key>
+    <key alias="theEndOpenUmbraco"><![CDATA[<h3>Launch Umbraco</h3>
+To manage your website, simply open the Umbraco back office and start adding content, updating the templates and stylesheets or add new functionality]]></key>
+    <key alias="Unavailable">Connection to database failed.</key>
+    <key alias="Version3">Umbraco Version 3</key>
+    <key alias="Version4">Umbraco Version 4</key>
+    <key alias="watch">Watch</key>
+    <key alias="welcomeIntro"><![CDATA[This wizard will guide you through the process of configuring <strong>Umbraco %0%</strong> for a fresh install or upgrading from version 3.0.
+                                <br /><br />
+                                Press <strong>"next"</strong> to start the wizard.]]></key>
+  </area>
+  <area alias="language">
+    <key alias="cultureCode">Culture Code</key>
+    <key alias="displayName">Culture Name</key>
+  </area>
+  <area alias="lockout">
+    <key alias="lockoutWillOccur">You've been idle and logout will automatically occur in</key>
+    <key alias="renewSession">Renew now to save your work</key>
+  </area>
+  <area alias="login">
+    <key alias="greeting0">Sretna super nedjelja</key>
+    <key alias="greeting1">Sretan manični ponedjeljak </key>
+    <key alias="greeting2">Sretan cjevasti utorak</key>
+    <key alias="greeting3">Sretna prekrasna srijeda</key>
+    <key alias="greeting4">Sretan gromoglasni četvrtak</key>
+    <key alias="greeting5">Sretan funky petak</key>
+    <key alias="greeting6">Sretna subota</key>
+    <key alias="instruction">Prijavite se u nastavku</key>
+    <key alias="signInWith">Prijava sa</key>
+    <key alias="timeout">Sesija je istekla</key>
+    <key alias="bottomText"><![CDATA[<p style="text-align:right;">&copy; 2001 - %0% <br /><a href="http://umbraco.com" style="text-decoration: none" target="_blank">Umbraco.com</a></p> ]]></key>
+    <key alias="forgottenPassword">Zaboravljena lozinka?</key>
+    <key alias="forgottenPasswordInstruction">Email poruka bit će poslana na vašu adresu s linkom za resetiranje lozinke</key>
+    <key alias="requestPasswordResetConfirmation">Email poruka sa instrukcijama kako resetirati lozinku bit će poslana na odabranu adresu ako ista odgovara i pronađena je u našim zapisima</key>
+    <key alias="showPassword">Prikaži lozinku</key>
+    <key alias="hidePassword">Sakrij lozinku</key>
+    <key alias="returnToLogin">Povratak na obrazac za prijavu</key>
+    <key alias="setPasswordInstruction">Molimo upišite novu lozinku</key>
+    <key alias="setPasswordConfirmation">Vaša lozinka je ažurirana</key>
+    <key alias="resetCodeExpired">Link na koji ste kliknuli je nevažeći ili je istekao</key>
+    <key alias="resetPasswordEmailCopySubject">Umbraco: Resetiranje Lozinke</key>
+    <key alias="resetPasswordEmailCopyFormat"><![CDATA[
+        <html>
+			<head>
+				<meta name='viewport' content='width=device-width'>
+				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+			</head>
+			<body class='' style='font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; color: #392F54; line-height: 22px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #1d1333; margin: 0; padding: 0;' bgcolor='#1d1333'>
+				<style type='text/css'> @media only screen and (max-width: 620px) {table[class=body] h1 {font-size: 28px !important; margin-bottom: 10px !important; } table[class=body] .wrapper {padding: 32px !important; } table[class=body] .article {padding: 32px !important; } table[class=body] .content {padding: 24px !important; } table[class=body] .container {padding: 0 !important; width: 100% !important; } table[class=body] .main {border-left-width: 0 !important; border-radius: 0 !important; border-right-width: 0 !important; } table[class=body] .btn table {width: 100% !important; } table[class=body] .btn a {width: 100% !important; } table[class=body] .img-responsive {height: auto !important; max-width: 100% !important; width: auto !important; } } .btn-primary table td:hover {background-color: #34495e !important; } .btn-primary a:hover {background-color: #34495e !important; border-color: #34495e !important; } .btn  a:visited {color:#FFFFFF;} </style>
+				<table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;" bgcolor="#1d1333">
+					<tr>
+						<td style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding: 24px;" valign="top">
+							<table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+								<tr>
+									<td background="https://umbraco.com/umbraco/assets/img/application/logo.png" bgcolor="#1d1333" width="28" height="28" valign="top" style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
+										<!--[if gte mso 9]> <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:30px;height:30px;"> <v:fill type="tile" src="https://umbraco.com/umbraco/assets/img/application/logo.png" color="#1d1333" /> <v:textbox inset="0,0,0,0"> <![endif]-->
+										<div> </div>
+										<!--[if gte mso 9]> </v:textbox> </v:rect> <![endif]-->
+									</td>
+									<td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table border='0' cellpadding='0' cellspacing='0' class='body' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;' bgcolor='#1d1333'>
+					<tr>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+						<td class='container' style='font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 560px; width: 560px; margin: 0 auto; padding: 10px;' valign='top'>
+							<div class='content' style='box-sizing: border-box; display: block; max-width: 560px; margin: 0 auto; padding: 10px;'>
+								<br>
+								<table class='main' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 3px; background: #FFFFFF;' bgcolor='#FFFFFF'>
+									<tr>
+										<td class='wrapper' style='font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 50px;' valign='top'>
+											<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;'>
+												<tr>
+													<td style='line-height: 24px; font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'>
+														<h1 style='color: #392F54; font-family: sans-serif; font-weight: bold; line-height: 1.4; font-size: 24px; text-align: left; text-transform: capitalize; margin: 0 0 30px;' align='left'>
+															Password reset requested
+														</h1>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Your username to login to the Umbraco back-office is: <strong>%0%</strong>
+														</p>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;'>
+																<tbody>
+																	<tr>
+																		<td style='font-family: sans-serif; font-size: 14px; vertical-align: top; border-radius: 5px; text-align: center; background: #35C786;' align='center' bgcolor='#35C786' valign='top'>
+																			<a href='%1%' target='_blank' style='color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; word-break: break-all; border-radius: 5px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; text-transform: capitalize; background: #35C786; margin: 0; padding: 12px 30px; border: 1px solid #35c786;'>
+																				Click this link to reset your password
+																			</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</p>
+														<p style='max-width: 400px; display: block; color: #392F54; font-family: sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; margin: 15px 0;'>If you cannot click on the link, copy and paste this URL into your browser window:</p>
+															<table border='0' cellpadding='0' cellspacing='0'>
+																<tr>
+																	<td style='-ms-word-break: break-all; word-break: break-all; font-family: sans-serif; font-size: 11px; line-height:14px;'>
+																		<font style="-ms-word-break: break-all; word-break: break-all; font-size: 11px; line-height:14px;">
+																			<a style='-ms-word-break: break-all; word-break: break-all; color: #392F54; text-decoration: underline; font-size: 11px; line-height:15px;' href='%1%'>%1%</a>
+																		</font>
+																	</td>
+																</tr>
+															</table>
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<br><br><br>
+							</div>
+						</td>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+					</tr>
+				</table>
+			</body>
+		</html>
+	]]></key>
+  </area>
+  <area alias="main">
+    <key alias="dashboard">Kontrolna ploča</key>
+    <key alias="sections">Sekcije</key>
+    <key alias="tree">Sadržaj</key>
+  </area>
+  <area alias="moveOrCopy">
+    <key alias="choose">Choose page above...</key>
+    <key alias="copyDone">%0% has been copied to %1%</key>
+    <key alias="copyTo">Select where the document %0% should be copied to below</key>
+    <key alias="moveDone">%0% has been moved to %1%</key>
+    <key alias="moveTo">Select where the document %0% should be moved to below</key>
+    <key alias="nodeSelected">has been selected as the root of your new content, click 'ok' below.</key>
+    <key alias="noNodeSelected">No node selected yet, please select a node in the list above before clicking 'ok'</key>
+    <key alias="notAllowedByContentType">The current node is not allowed under the chosen node because of its type</key>
+    <key alias="notAllowedByPath">The current node cannot be moved to one of its subpages</key>
+    <key alias="notAllowedAtRoot">The current node cannot exist at the root</key>
+    <key alias="notValid">The action isn't allowed since you have insufficient permissions on 1 or more child documents.</key>
+    <key alias="relateToOriginal">Relate copied items to original</key>
+  </area>
+  <area alias="notifications">
+    <key alias="editNotifications"><![CDATA[Select your notification for <strong>%0%</strong>]]></key>
+    <key alias="notificationsSavedFor">Notification settings saved for</key>
+    <key alias="mailBody"><![CDATA[
+      Hi %0%
+
+      This is an automated mail to inform you that the task '%1%'
+      has been performed on the page '%2%'
+      by the user '%3%'
+
+      Go to http://%4%/#/content/content/edit/%5% to edit.
+
+      %6%
+
+      Have a nice day!
+
+      Cheers from the Umbraco robot
+    ]]></key>
+    <key alias="mailBodyVariantSummary">The following languages have been modified %0%</key>
+    <key alias="mailBodyHtml"><![CDATA[
+        <html>
+			<head>
+				<meta name='viewport' content='width=device-width'>
+				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+			</head>
+			<body class='' style='font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; color: #392F54; line-height: 22px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #1d1333; margin: 0; padding: 0;' bgcolor='#1d1333'>
+				<style type='text/css'> @media only screen and (max-width: 620px) {table[class=body] h1 {font-size: 28px !important; margin-bottom: 10px !important; } table[class=body] .wrapper {padding: 32px !important; } table[class=body] .article {padding: 32px !important; } table[class=body] .content {padding: 24px !important; } table[class=body] .container {padding: 0 !important; width: 100% !important; } table[class=body] .main {border-left-width: 0 !important; border-radius: 0 !important; border-right-width: 0 !important; } table[class=body] .btn table {width: 100% !important; } table[class=body] .btn a {width: 100% !important; } table[class=body] .img-responsive {height: auto !important; max-width: 100% !important; width: auto !important; } } .btn-primary table td:hover {background-color: #34495e !important; } .btn-primary a:hover {background-color: #34495e !important; border-color: #34495e !important; } .btn  a:visited {color:#FFFFFF;} </style>
+				<table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;" bgcolor="#1d1333">
+					<tr>
+						<td style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding: 24px;" valign="top">
+							<table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+								<tr>
+									<td background="https://umbraco.com/umbraco/assets/img/application/logo.png" bgcolor="#1d1333" width="28" height="28" valign="top" style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
+										<!--[if gte mso 9]> <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:30px;height:30px;"> <v:fill type="tile" src="https://umbraco.com/umbraco/assets/img/application/logo.png" color="#1d1333" /> <v:textbox inset="0,0,0,0"> <![endif]-->
+										<div> </div>
+										<!--[if gte mso 9]> </v:textbox> </v:rect> <![endif]-->
+									</td>
+									<td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table border='0' cellpadding='0' cellspacing='0' class='body' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;' bgcolor='#1d1333'>
+					<tr>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+						<td class='container' style='font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 560px; width: 560px; margin: 0 auto; padding: 10px;' valign='top'>
+							<div class='content' style='box-sizing: border-box; display: block; max-width: 560px; margin: 0 auto; padding: 10px;'>
+								<br>
+								<table class='main' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 3px; background: #FFFFFF;' bgcolor='#FFFFFF'>
+									<tr>
+										<td class='wrapper' style='font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 50px;' valign='top'>
+											<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;'>
+												<tr>
+													<td style='line-height: 24px; font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'>
+														<h1 style='color: #392F54; font-family: sans-serif; font-weight: bold; line-height: 1.4; font-size: 24px; text-align: left; text-transform: capitalize; margin: 0 0 30px;' align='left'>
+															Hi %0%,
+														</h1>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															This is an automated mail to inform you that the task <strong>'%1%'</strong> has been performed on the page <a style="color: #392F54; text-decoration: none; -ms-word-break: break-all; word-break: break-all;" href="http://%4%/#/content/content/edit/%5%"><strong>'%2%'</strong></a> by the user <strong>'%3%'</strong>
+														</p>
+														<table border='0' cellpadding='0' cellspacing='0' class='btn btn-primary' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;'>
+															<tbody>
+																<tr>
+																	<td align='left' style='font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;' valign='top'>
+																		<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;'><tbody><tr>
+																			<td style='font-family: sans-serif; font-size: 14px; vertical-align: top; border-radius: 5px; text-align: center; background: #35C786;' align='center' bgcolor='#35C786' valign='top'>
+																				<a href='http://%4%/#/content/content/edit/%5%' target='_blank' style='color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; word-break: break-all; border-radius: 5px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; text-transform: capitalize; background: #35C786; margin: 0; padding: 12px 30px; border: 1px solid #35c786;'>EDIT</a> </td> </tr></tbody></table>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															<h3>Update summary:</h3>
+															%6%
+														</p>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Have a nice day!<br /><br />
+															Cheers from the Umbraco robot
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<br><br><br>
+							</div>
+						</td>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+					</tr>
+				</table>
+			</body>
+		</html>
+	]]></key>
+    <key alias="mailBodyVariantHtmlSummary"><![CDATA[<p>The following languages have been modified:</p>
+        %0%
+    ]]></key>
+    <key alias="mailSubject">[%0%] Notification about %1% performed on %2%</key>
+    <key alias="notifications">Notifications</key>
+  </area>
+  <area alias="packager">
+    <key alias="actions">Akcije</key>
+    <key alias="created">Kreirani</key>
+    <key alias="createPackage">Kreiraj paket</key>
+    <key alias="chooseLocalPackageText"><![CDATA[
+      Choose Package from your machine, by clicking the Browse<br />
+         button and locating the package. Umbraco packages usually have a ".umb" or ".zip" extension.
+      ]]></key>
+    <key alias="deletewarning">Ovo će obrisati paket</key>
+    <key alias="dropHere">Ispusti za prijenos</key>
+    <key alias="includeAllChildNodes">Uključi sve podstavke čvorova</key>
+    <key alias="orClickHereToUpload">ili klikni ovdje kako bi odabrali datoteku paketa</key>
+    <key alias="uploadPackage">Prenesi paket</key>
+    <key alias="localPackageDescription">Instaliraj lokalni paket odabirom istog sa računala. Instalirajte samo pakete sa pouzdanih izvora.</key>
+    <key alias="uploadAnother">Prenesi drugi paket</key>
+    <key alias="cancelAndUploadAnother">Odustani i prenesi drugi paket</key>
+    <key alias="accept">Prihvaćam</key>
+    <key alias="termsOfUse">uvijete korištenja</key>
+    <key alias="pathToFile">Put do datoteke</key>
+    <key alias="pathToFileDescription">Absolutni put do datoteke (ie: /bin/umbraco.bin)</key>
+    <key alias="installed">Instalirano</key>
+    <key alias="installedPackages">Instalirani paketi</key>
+    <key alias="installLocal">Instaliraj lokalni paket</key>
+    <key alias="installFinish">Završi</key>
+    <key alias="noConfigurationView">Ovaj paket nema configuration view</key>
+    <key alias="noPackagesCreated">Nijedan paket još nije kreiran</key>
+    <key alias="noPackages">Nemate instaliran niti jedan paket</key>
+    <key alias="noPackagesDescription"><![CDATA[You don’t have any packages installed. Either install a local package by selecting it from your machine, or browse through available packages using the <strong>'Packages'</strong> icon in the top right of your screen]]></key>
+    <key alias="packageActions">Akcije Paketa</key>
+    <key alias="packageAuthorUrl">Autor URL</key>
+    <key alias="packageContent">Sadržaj Paketa</key>
+    <key alias="packageFiles">Datoteke paketa</key>
+    <key alias="packageIconUrl">Ikona URL</key>
+    <key alias="packageInstall">Instaliraj paket</key>
+    <key alias="packageLicense">Licenca</key>
+    <key alias="packageLicenseUrl">Licenca URL</key>
+    <key alias="packageProperties">Svojstva paketa</key>
+    <key alias="packageSearch">Pretraži pakete</key>
+    <key alias="packageSearchResults">Rezultati za</key>
+    <key alias="packageNoResults">Nismo mogli pronaći ništa za</key>
+    <key alias="packageNoResultsDescription">Molimo pokušajte tražiti neki drugi paket ili pregledajte pakete kroz kategorije</key>
+    <key alias="packagesPopular">Popularno</key>
+    <key alias="packagesNew">Nova izdanja</key>
+    <key alias="packageHas">imaju</key>
+    <key alias="packageKarmaPoints">karma bodova</key>
+    <key alias="packageInfo">Informacije</key>
+    <key alias="packageOwner">Vlasnik</key>
+    <key alias="packageContrib">Suradnici</key>
+    <key alias="packageCreated">Kreirano</key>
+    <key alias="packageCurrentVersion">Trenutna verzija</key>
+    <key alias="packageNetVersion">.NET verzija</key>
+    <key alias="packageDownloads">Preuzimanja</key>
+    <key alias="packageLikes">Lajkova</key>
+    <key alias="packageCompatibility">Kompatibilnost</key>
+    <key alias="packageCompatibilityDescription">Kako prenose članovi zajednice, ovaj paket je kompatibilan sa slijedećim verzijama Umbraco-a. Za verzije deklarirane ispod 100%, puna kompatibilnost ne može biti garantirana</key>
+    <key alias="packageExternalSources">Vanjske poveznice</key>
+    <key alias="packageAuthor">Autor</key>
+    <key alias="packageDocumentation">Dokumentacija</key>
+    <key alias="packageMetaData">Meta podaci paketa</key>
+    <key alias="packageName">Naziv paketa</key>
+    <key alias="packageNoItemsHeader">Paket ne sadrži niti jednu stavku</key>
+    <key alias="packageNoItemsText"><![CDATA[This package file doesn't contain any items to uninstall.<br/><br/>
+      You can safely remove this from the system by clicking "uninstall package" below.]]></key>
+    <key alias="packageOptions">Opcije paketa</key>
+    <key alias="packageReadme">Package readme</key>
+    <key alias="packageRepository">Repozotorij paketa</key>
+    <key alias="packageUninstallConfirm">Potvrdi deinstalaciju paketa</key>
+    <key alias="packageUninstalledHeader">Paket je deinstaliran</key>
+    <key alias="packageUninstalledText">Paket je uspješno deinstaliran</key>
+    <key alias="packageUninstallHeader">Deinstaliraj paket</key>
+    <key alias="packageUninstallText"><![CDATA[You can unselect items you do not wish to remove, at this time, below. When you click "confirm uninstall" all checked-off items will be removed.<br />
+      <span style="color: Red; font-weight: bold;">Notice:</span> any documents, media etc depending on the items you remove, will stop working, and could lead to system instability,
+      so uninstall with caution. If in doubt, contact the package author.]]></key>
+    <key alias="packageVersion">Verzija paketa</key>
+    <key alias="packageVersionUpgrade">Upgrading from version</key>
+    <key alias="packageAlreadyInstalled">Paket je već instaliran</key>
+    <key alias="targetVersionMismatch">Ovaj paket ne može biti instalira, zahtijeva minimalnu verzoju Umbraco-a</key>
+    <key alias="installStateUninstalling">Deinstaliranje...</key>
+    <key alias="installStateDownloading">Preuzimanje...</key>
+    <key alias="installStateImporting">Importiranje...</key>
+    <key alias="installStateInstalling">Instaliranje...</key>
+    <key alias="installStateRestarting">Ponovno pokretanje, molimo pričekajte...</key>
+    <key alias="installStateComplete">Završeno, vaš web preglednik će se osvježiti, molimo pričekajte...</key>
+    <key alias="installStateCompleted">Molimo kliknite 'Završi' kako bi instalacija završila i kako bi ponovno osvježili stranicu.</key>
+    <key alias="installStateUploading">Prijenos paketa...</key>
+  </area>
+  <area alias="paste">
+    <key alias="doNothing">Paste with full formatting (Not recommended)</key>
+    <key alias="errorMessage">The text you're trying to paste contains special characters or formatting. This could be caused by copying text from Microsoft Word. Umbraco can remove special characters or formatting automatically, so the pasted content will be more suitable for the web.</key>
+    <key alias="removeAll">Paste as raw text without any formatting at all</key>
+    <key alias="removeSpecialFormattering">Paste, but remove formatting (Recommended)</key>
+  </area>
+  <area alias="publicAccess">
+    <key alias="paGroups">Group based protection</key>
+    <key alias="paGroupsHelp">If you want to grant access to all members of specific member groups</key>
+    <key alias="paGroupsNoGroups">You need to create a member group before you can use group based authentication</key>
+    <key alias="paErrorPage">Error Page</key>
+    <key alias="paErrorPageHelp">Used when people are logged on, but do not have access</key>
+    <key alias="paHowWould"><![CDATA[Choose how to restrict access to the page <strong>%0%</strong>]]></key>
+    <key alias="paIsProtected"><![CDATA[<strong>%0%</strong> is now protected]]></key>
+    <key alias="paIsRemoved"><![CDATA[Protection removed from <strong>%0%</strong>]]></key>
+    <key alias="paLoginPage">Login Page</key>
+    <key alias="paLoginPageHelp">Choose the page that contains the login form</key>
+    <key alias="paRemoveProtection">Remove protection...</key>
+    <key alias="paRemoveProtectionConfirm"><![CDATA[Are you sure you want to remove the protection from the page <strong>%0%</strong>?]]></key>
+    <key alias="paSelectPages">Select the pages that contain login form and error messages</key>
+    <key alias="paSelectGroups"><![CDATA[Select the groups who have access to the page <strong>%0%</strong>]]></key>
+    <key alias="paSelectMembers"><![CDATA[Select the members who have access to the page <strong>%0%</strong>]]></key>
+    <key alias="paMembers">Specific members protection</key>
+    <key alias="paMembersHelp">If you wish to grant access to specific members</key>
+  </area>
+  <area alias="publish">
+	<key alias="invalidPublishBranchPermissions">Insufficient user permissions to publish all descendant documents</key>
+    <key alias="contentPublishedFailedIsTrashed"><![CDATA[
+      %0% could not be published because the item is in the recycle bin.
+    ]]></key>
+    <key alias="contentPublishedFailedAwaitingRelease"><![CDATA[
+      %0% could not be published because the item is scheduled for release.
+    ]]></key>
+    <key alias="contentPublishedFailedExpired"><![CDATA[
+      %0% could not be published because the item has expired.
+    ]]></key>
+    <key alias="contentPublishedFailedInvalid"><![CDATA[
+      %0% could not be published because these properties:  %1%  did not pass validation rules.
+    ]]></key>
+    <key alias="contentPublishedFailedByEvent"><![CDATA[
+      %0% could not be published, a 3rd party add-in cancelled the action.
+    ]]></key>
+    <key alias="contentPublishedFailedByParent"><![CDATA[
+      %0% can not be published, because a parent page is not published.
+    ]]></key>
+    <key alias="contentPublishedFailedByMissingName"><![CDATA[%0% can not be published, because its missing a name.]]></key>
+    <key alias="contentPublishedFailedReqCultureValidationError">Validation failed for required language '%0%'. This language was saved but not published.</key>
+    <key alias="inProgress">Publishing in progress - please wait...</key>
+    <key alias="inProgressCounter">%0% out of %1% pages have been published...</key>
+    <key alias="nodePublish">%0% has been published</key>
+    <key alias="nodePublishAll">%0% and subpages have been published</key>
+    <key alias="publishAll">Publish %0% and all its subpages</key>
+    <key alias="publishHelp"><![CDATA[Click <em>Publish</em> to publish <strong>%0%</strong> and thereby making its content publicly available.<br/><br />
+      You can publish this page and all its subpages by checking <em>Include unpublished subpages</em> below.
+      ]]></key>
+  </area>
+  <area alias="colorpicker">
+    <key alias="noColors">You have not configured any approved colours</key>
+  </area>
+  <area alias="contentPicker">
+    <key alias="allowedItemTypes">You can only select items of type(s): %0%</key>
+    <key alias="pickedTrashedItem">You have picked a content item currently deleted or in the recycle bin</key>
+    <key alias="pickedTrashedItems">You have picked content items currently deleted or in the recycle bin</key>
+  </area>
+  <area alias="mediaPicker">
+	<key alias="deletedItem">Deleted item</key>
+    <key alias="pickedTrashedItem">You have picked a media item currently deleted or in the recycle bin</key>
+    <key alias="pickedTrashedItems">You have picked media items currently deleted or in the recycle bin</key>
+    <key alias="trashed">Trashed</key>
+  </area>
+  <area alias="relatedlinks">
+    <key alias="enterExternal">enter external link</key>
+    <key alias="chooseInternal">choose internal page</key>
+    <key alias="caption">Caption</key>
+    <key alias="link">Link</key>
+    <key alias="newWindow">Open in new window</key>
+    <key alias="captionPlaceholder">enter the display caption</key>
+    <key alias="externalLinkPlaceholder">Enter the link</key>
+  </area>
+  <area alias="imagecropper">
+    <key alias="reset">Reset crop</key>
+    <key alias="saveCrop">Save crop</key>
+    <key alias="addCrop">Add new crop</key>
+    <key alias="updateEditCrop">Done</key>
+    <key alias="undoEditCrop">Undo edits</key>
+	<key alias="customCrop">User defined</key>
+  </area>
+  <area alias="rollback">
+	<key alias="changes">Changes</key>
+    <key alias="created">Created</key>
+    <key alias="headline">Select a version to compare with the current version</key>
+    <key alias="currentVersion">Current version</key>
+    <key alias="diffHelp"><![CDATA[This shows the differences between the current version and the selected version<br /><del>Red</del> text will not be shown in the selected version. , <ins>green means added</ins>]]></key>
+    <key alias="documentRolledBack">Document has been rolled back</key>
+	<key alias="headline">Select a version to compare with the current version</key>
+    <key alias="htmlHelp">This displays the selected version as HTML, if you wish to see the difference between 2 versions at the same time, use the diff view</key>
+    <key alias="rollbackTo">Rollback to</key>
+    <key alias="selectVersion">Odaberi verziju</key>
+    <key alias="view">Pogled</key>
+  </area>
+  <area alias="scripts">
+    <key alias="editscript">Edit script file</key>
+  </area>
+  <area alias="sections">
+    <key alias="concierge">Concierge</key>
+    <key alias="content">Sadržaj</key>
+    <key alias="media">Media</key>
+    <key alias="member">Članovi</key>
+    <key alias="packages">Paketi</key>
+    <key alias="settings">Postavke</key>
+    <key alias="translation">Prevođenje</key>
+    <key alias="users">Korisnici</key>
+  </area>
+  <area alias="help">
+  	<key alias="tours">Tours</key>
+    <key alias="theBestUmbracoVideoTutorials">Najbolji Umbraco video tutorijali</key>
+	<key alias="umbracoForum">Visit our.umbraco.com</key>
+    <key alias="umbracoTv">Visit umbraco.tv</key>
+  </area>
+  <area alias="settings">
+    <key alias="defaulttemplate">Zadani predložak</key>
+    <key alias="importDocumentTypeHelp">To import a document type, find the ".udt" file on your computer by clicking the "Browse" button and click "Import" (you'll be asked for confirmation on the next screen)</key>
+    <key alias="newtabname">New Tab Title</key>
+    <key alias="nodetype">Node type</key>
+    <key alias="objecttype">Tip</key>
+    <key alias="stylesheet">Stil</key>
+    <key alias="script">Skripta</key>
+    <key alias="tab">Tab</key>
+    <key alias="tabname">Tab naslov</key>
+    <key alias="tabs">Tabovi</key>
+    <key alias="contentTypeEnabled">Master Content Type enabled</key>
+    <key alias="contentTypeUses">This Content Type uses</key>
+    <key alias="asAContentMasterType">as a Master Content Type. Tabs from Master Content Types are not shown and can only be edited on the Master Content Type itself</key>
+    <key alias="noPropertiesDefinedOnTab">No properties defined on this tab. Click on the "add a new property" link at the top to create a new property.</key>
+    <key alias="createMatchingTemplate">Create matching template</key>
+    <key alias="addIcon">Dodaj ikonu</key>
+  </area>
+  <area alias="sort">
+    <key alias="sortOrder">Sort order</key>
+    <key alias="sortCreationDate">Datum kreiranja</key>
+    <key alias="sortDone">Sortiranje završeno.</key>
+    <key alias="sortHelp">Drag the different items up or down below to set how they should be arranged. Or click the column headers to sort the entire collection of items</key>
+    <key alias="sortPleaseWait"><![CDATA[Please wait. Items are being sorted, this can take a while.]]></key>
+	<key alias="sortEmptyState">This node has no child nodes to sort</key>
+  </area>
+  <area alias="speechBubbles">
+    <key alias="validationFailedHeader">Validation</key>
+    <key alias="validationFailedMessage">Validation errors must be fixed before the item can be saved</key>
+    <key alias="operationFailedHeader">Failed</key>
+    <key alias="operationSavedHeader">Saved</key>
+    <key alias="invalidUserPermissionsText">Insufficient user permissions, could not complete the operation</key>
+    <key alias="operationCancelledHeader">Cancelled</key>
+    <key alias="operationCancelledText">Operation was cancelled by a 3rd party add-in</key>
+    <key alias="contentTypeDublicatePropertyType">Property type already exists</key>
+    <key alias="contentTypePropertyTypeCreated">Property type created</key>
+    <key alias="contentTypePropertyTypeCreatedText"><![CDATA[Name: %0% <br /> DataType: %1%]]></key>
+    <key alias="contentTypePropertyTypeDeleted">Propertytype deleted</key>
+    <key alias="contentTypeSavedHeader">Document Type saved</key>
+    <key alias="contentTypeTabCreated">Tab created</key>
+    <key alias="contentTypeTabDeleted">Tab deleted</key>
+    <key alias="contentTypeTabDeletedText">Tab with id: %0% deleted</key>
+    <key alias="cssErrorHeader">Stylesheet not saved</key>
+    <key alias="cssSavedHeader">Stylesheet saved</key>
+    <key alias="cssSavedText">Stylesheet saved without any errors</key>
+    <key alias="dataTypeSaved">Datatype saved</key>
+    <key alias="dictionaryItemSaved">Dictionary item saved</key>
+    <key alias="editContentPublishedHeader">Content published</key>
+    <key alias="editContentPublishedText">and visible on the website</key>
+	<key alias="editContentPublishedText">and is visible on the website</key>
+    <key alias="editMultiContentPublishedText">%0% documents published and visible on the website</key>
+    <key alias="editVariantPublishedText">%0% published and visible on the website</key>
+    <key alias="editMultiVariantPublishedText">%0% documents published for languages %1% and visible on the website</key>
+    <key alias="editContentSavedHeader">Content saved</key>
+    <key alias="editContentSavedText">Remember to publish to make changes visible</key>
+	<key alias="editContentScheduledSavedText">A schedule for publishing has been updated</key>
+    <key alias="editVariantSavedText">%0% saved</key>
+    <key alias="editContentSendToPublish">Sent For Approval</key>
+    <key alias="editContentSendToPublishText">Changes have been sent for approval</key>    <key alias="editMediaSaved">Media saved</key>
+    <key alias="editMediaSavedText">Media saved without any errors</key>
+    <key alias="editMemberSaved">Member saved</key>
+	<key alias="editMemberGroupSaved">Member group saved</key>
+    <key alias="editStylesheetPropertySaved">Stylesheet Property Saved</key>
+    <key alias="editStylesheetSaved">Stylesheet saved</key>
+    <key alias="editTemplateSaved">Template saved</key>
+    <key alias="editUserError">Error saving user (check log)</key>
+    <key alias="editUserSaved">User Saved</key>
+    <key alias="editUserTypeSaved">User type saved</key>
+    <key alias="editUserGroupSaved">User group saved</key>
+	<key alias="editCulturesAndHostnamesSaved">Cultures and hostnames saved</key>
+    <key alias="editCulturesAndHostnamesError">Error saving cultures and hostnames</key>
+    <key alias="fileErrorHeader">File not saved</key>
+    <key alias="fileErrorText">file could not be saved. Please check file permissions</key>
+    <key alias="fileSavedHeader">File saved</key>
+    <key alias="fileSavedText">File saved without any errors</key>
+    <key alias="languageSaved">Language saved</key>
+    <key alias="mediaTypeSavedHeader">Media Type saved</key>
+    <key alias="memberTypeSavedHeader">Member Type saved</key>
+    <key alias="memberGroupSavedHeader">Member Group saved</key>
+    <key alias="templateErrorHeader">Template not saved</key>
+    <key alias="templateErrorText">Please make sure that you do not have 2 templates with the same alias</key>
+    <key alias="templateSavedHeader">Template saved</key>
+    <key alias="templateSavedText">Template saved without any errors!</key>
+    <key alias="contentUnpublished">Content unpublished</key>
+	<key alias="contentCultureUnpublished">Content variation %0% unpublished</key>
+    <key alias="contentMandatoryCultureUnpublished">The mandatory language '%0%' was unpublished. All languages for this content item are now unpublished.</key>
+    <key alias="partialViewSavedHeader">Partial view saved</key>
+    <key alias="partialViewSavedText">Partial view saved without any errors!</key>
+    <key alias="partialViewErrorHeader">Partial view not saved</key>
+    <key alias="partialViewErrorText">An error occurred saving the file.</key>
+    <key alias="permissionsSavedFor">Permissions saved for</key>
+    <key alias="deleteUserGroupsSuccess">Deleted %0% user groups</key>
+    <key alias="deleteUserGroupSuccess">%0% was deleted</key>
+    <key alias="enableUsersSuccess">Enabled %0% users</key>
+    <key alias="disableUsersSuccess">Disabled %0% users</key>
+    <key alias="enableUserSuccess">%0% is now enabled</key>
+    <key alias="disableUserSuccess">%0% is now disabled</key>
+    <key alias="setUserGroupOnUsersSuccess">User groups have been set</key>
+    <key alias="unlockUsersSuccess">Unlocked %0% users</key>
+    <key alias="unlockUserSuccess">%0% is now unlocked</key>
+    <key alias="memberExportedSuccess">Member was exported to file</key>
+    <key alias="memberExportedError">An error occurred while exporting the member</key>
+    <key alias="deleteUserSuccess">User %0% was deleted</key>
+    <key alias="resendInviteHeader">Invite user</key>
+    <key alias="resendInviteSuccess">Invitation has been re-sent to %0%</key>
+	<key alias="contentReqCulturePublishError">Cannot publish the document since the required '%0%' is not published</key>
+    <key alias="contentCultureValidationError">Validation failed for language '%0%'</key>
+    <key alias="documentTypeExportedSuccess">Document type was exported to file</key>
+    <key alias="documentTypeExportedError">An error occurred while exporting the document type</key>
+	<key alias="scheduleErrReleaseDate1">The release date cannot be in the past</key>
+    <key alias="scheduleErrReleaseDate2">Cannot schedule the document for publishing since the required '%0%' is not published</key>
+    <key alias="scheduleErrReleaseDate3">Cannot schedule the document for publishing since the required '%0%' has a publish date later than a non mandatory language</key>
+    <key alias="scheduleErrExpireDate1">The expire date cannot be in the past</key>
+    <key alias="scheduleErrExpireDate2">The expire date cannot be before the release date</key>
+  </area>
+  <area alias="stylesheet">
+    <key alias="addRule">Dodaj stil</key>
+    <key alias="editRule">Uredi stil</key>
+    <key alias="editorRules">Stilovi Rich text editora</key>
+    <key alias="editorRulesHelp">Define the styles that should be available in the rich text editor for this stylesheet</key>
+    <key alias="editstylesheet">uredi stil</key>
+    <key alias="editstylesheetproperty">Edit stylesheet property</key>
+    <key alias="nameHelp">The name displayed in the editor style selector</key>
+    <key alias="preview">Pregled</key>
+    <key alias="previewHelp">How the text will look like in the rich text editor.</key>
+    <key alias="selector">Selector</key>
+    <key alias="selectorHelp">Uses CSS syntax, e.g. "h1" or ".redHeader"</key>
+    <key alias="styles">Stilovi</key>
+    <key alias="stylesHelp">The CSS that should be applied in the rich text editor, e.g. "color:red;"</key>
+    <key alias="tabCode">Code</key>
+    <key alias="tabRules">Editor</key>
+  </area>
+  <area alias="template">
+    <key alias="deleteByIdFailed">Neuspjelo brisanje predloška sa ID %0%</key>
+    <key alias="edittemplate">Uredi predložak</key>
+    <key alias="insertSections">Sekcije</key>
+    <key alias="insertContentArea">Insert content area</key>
+    <key alias="insertContentAreaPlaceHolder">Insert content area placeholder</key>
+    <key alias="insert">Umetni</key>
+    <key alias="insertDesc">Choose what to insert into your template</key>
+    <key alias="insertDictionaryItem">Dictionary item</key>
+    <key alias="insertDictionaryItemDesc">A dictionary item is a placeholder for a translatable piece of text, which makes it easy to create designs for multilingual websites.</key>
+    <key alias="insertMacro">Macro</key>
+    <key alias="insertMacroDesc">
+            A Macro is a configurable component which is great for
+            reusable parts of your design, where you need the option to provide parameters,
+            such as galleries, forms and lists.
+        </key>
+    <key alias="insertPageField">Vrijednost polja</key>
+    <key alias="insertPageFieldDesc">Prikazuje vrijednost polja trenutne stranice po aliasu sa opcijom mogućnosti prikaza vrijednosi zamjenske vrijednosti.</key>
+    <key alias="insertPartialView">Partial view</key>
+    <key alias="insertPartialViewDesc">
+            Partial view je samostalni odvojeni predložak koji može biti rendiran unutar nekog drugog predloška, 
+			koristi se kao predložak za ponavljajuće elemente i kako bi se smanjila kompleksnost predložaka.
+        </key>
+    <key alias="mastertemplate">Glavni predložak</key>
+    <key alias="noMaster">Nema glavnog predloška</key>
+    <key alias="renderBody">Rendiraj nasljeđeni predložak</key>
+    <key alias="renderBodyDesc"><![CDATA[
+     Renders the contents of a child template, by inserting a
+     <code>@RenderBody()</code> placeholder.
+      ]]></key>
+    <key alias="defineSection">Define a named section</key>
+    <key alias="defineSectionDesc"><![CDATA[
+         Defines a part of your template as a named section by wrapping it in
+          <code>@section { ... }</code>. This can be rendered in a
+          specific area of the parent of this template, by using <code>@RenderSection</code>.
+      ]]></key>
+    <key alias="renderSection">Render a named section</key>
+    <key alias="renderSectionDesc"><![CDATA[
+      Renders a named area of a child template, by inserting a <code>@RenderSection(name)</code> placeholder.
+      This renders an area of a child template which is wrapped in a corresponding <code>@section [name]{ ... }</code> definition.
+      ]]></key>
+    <key alias="sectionName">Naziv Sekcije</key>
+    <key alias="sectionMandatory">Sekcija je obavezna</key>
+    <key alias="sectionMandatoryDesc">
+		If mandatory, the child template must contain a <code>@section</code> definition, otherwise an error is shown.
+	</key>
+    <key alias="queryBuilder">Generiranje upita</key>
+    <key alias="itemsReturned">stavaka vraćeno, u</key>
+    <key alias="copyToClipboard">kopiraj u međuspremnik</key>
+    <key alias="iWant">Želim</key>
+    <key alias="allContent">sav sadržaj</key>
+    <key alias="contentOfType">sadržaj tipa "%0%"</key>
+    <key alias="from">sa</key>
+    <key alias="websiteRoot">moje web stranice</key>
+    <key alias="where">gdje</key>
+    <key alias="and">i</key>
+    <key alias="is">je</key>
+    <key alias="isNot">nije</key>
+    <key alias="before">prije</key>
+    <key alias="beforeIncDate">prije (uključujući odabrani datum)</key>
+    <key alias="after">poslije</key>
+    <key alias="afterIncDate">poslije (uključujući odabrani datum)</key>
+    <key alias="equals">odgovara</key>
+    <key alias="doesNotEqual">ne odgovara</key>
+    <key alias="contains">sadrži</key>
+    <key alias="doesNotContain">ne sadrži</key>
+    <key alias="greaterThan">veće od</key>
+    <key alias="greaterThanEqual">veće od ili jednako</key>
+    <key alias="lessThan">manje od</key>
+    <key alias="lessThanEqual">manje od ili jednako</key>
+    <key alias="id">Id</key>
+    <key alias="name">Naziv</key>
+    <key alias="createdDate">Datum kreiranja</key>
+    <key alias="lastUpdatedDate">Datum zadnjeg ažuriranja</key>
+    <key alias="orderBy">sortiraj po</key>
+    <key alias="ascending">uzlazno</key>
+    <key alias="descending">silazno</key>
+    <key alias="template">Predložak</key>
+  </area>
+  <area alias="grid">
+    <key alias="media">Slika</key>
+    <key alias="macro">Macro</key>
+    <key alias="insertControl">Choose type of content</key>
+    <key alias="chooseLayout">Choose a layout</key>
+    <key alias="addRows">Dodaj redak</key>
+    <key alias="addElement">Dodaj sadržaj</key>
+    <key alias="dropElement">Drop content</key>
+    <key alias="settingsApplied">Settings applied</key>
+    <key alias="contentNotAllowed">This content is not allowed here</key>
+    <key alias="contentAllowed">This content is allowed here</key>
+    <key alias="clickToEmbed">Click to embed</key>
+    <key alias="clickToInsertImage">Click to insert image</key>
+    <key alias="placeholderImageCaption">Image caption...</key>
+    <key alias="placeholderWriteHere">Write here...</key>
+    <key alias="gridLayouts">Grid Layouts</key>
+    <key alias="gridLayoutsDetail">Layouts are the overall work area for the grid editor, usually you only need one or two different layouts</key>
+    <key alias="addGridLayout">Add Grid Layout</key>
+	<key alias="editGridLayout">Edit Grid Layout</key>
+    <key alias="addGridLayoutDetail">Adjust the layout by setting column widths and adding additional sections</key>
+    <key alias="rowConfigurations">Row configurations</key>
+    <key alias="rowConfigurationsDetail">Rows are predefined cells arranged horizontally</key>
+    <key alias="addRowConfiguration">Add row configuration</key>
+	<key alias="editRowConfiguration">Edit row configuration</key>
+    <key alias="addRowConfigurationDetail">Adjust the row by setting cell widths and adding additional cells</key>
+    <key alias="columns">Kolone</key>
+    <key alias="columnsDetails">Total combined number of columns in the grid layout</key>
+    <key alias="settings">Postavke</key>
+    <key alias="settingsDetails">Configure what settings editors can change</key>
+    <key alias="styles">Stilovi</key>
+    <key alias="stylesDetails">Configure what styling editors can change</key>
+    <key alias="allowAllEditors">Allow all editors</key>
+    <key alias="allowAllRowConfigurations">Allow all row configurations</key>
+    <key alias="maxItems">Maximum items</key>
+    <key alias="maxItemsDescription">Ostavite prazno ili postavite na 0 za neograničeno</key>
+    <key alias="setAsDefault">Postavi kao zadano</key>
+    <key alias="chooseExtra">Choose extra</key>
+    <key alias="chooseDefault">Choose default</key>
+    <key alias="areAdded">are added</key>
+		<key alias="warning">Warning</key>
+        <key alias="youAreDeleting">You are deleting the row configuration</key>
+        <key alias="deletingARow">
+            Deleting a row configuration name will result in loss of data for any existing content that is based on this configuration.
+        </key>
+  </area>
+  <area alias="contentTypeEditor">
+    <key alias="compositions">Kompozicije</key>
+    <key alias="group">Grupa</key>
+    <key alias="noGroups">You have not added any groups</key>
+    <key alias="addGroup">Dodaj grupu</key>
+    <key alias="inheritedFrom">Nasljeđeno iz</key>
+    <key alias="addProperty">Dodaj svojstvo</key>
+    <key alias="requiredLabel">Required label</key>
+    <key alias="enableListViewHeading">Omogući list view</key>
+    <key alias="enableListViewDescription">Configures the content item to show a sortable and searchable list of its children, the children will not be shown in the tree</key>
+    <key alias="allowedTemplatesHeading">Allowed Templates</key>
+    <key alias="allowedTemplatesDescription">Choose which templates editors are allowed to use on content of this type</key>
+    <key alias="allowAsRootHeading">Allow as root</key>
+    <key alias="allowAsRootDescription">Allow editors to create content of this type in the root of the content tree</key>
+    <key alias="childNodesHeading">Allowed child node types</key>
+    <key alias="childNodesDescription">Allow content of the specified types to be created underneath content of this type</key>
+    <key alias="chooseChildNode">Choose child node</key>
+    <key alias="compositionsDescription">Inherit tabs and properties from an existing document type. New tabs will be added to the current document type or merged if a tab with an identical name exists.</key>
+    <key alias="compositionInUse">This content type is used in a composition, and therefore cannot be composed itself.</key>
+    <key alias="noAvailableCompositions">There are no content types available to use as a composition.</key>
+	<key alias="compositionRemoveWarning">Removing a composition will delete all the associated property data. Once you save the document type there's no way back.</key>
+    <key alias="availableEditors">Create new</key>
+    <key alias="reuse">Use existing</key>
+    <key alias="editorSettings">Editor settings</key>
+	<key alias="searchResultSettings">Available configurations</key>
+    <key alias="searchResultEditors">Create a new configuration</key>
+    <key alias="configuration">Configuration</key>
+    <key alias="yesDelete">Da, obriši</key>
+    <key alias="movedUnderneath">was moved underneath</key>
+    <key alias="copiedUnderneath">was copied underneath</key>
+    <key alias="folderToMove">Select the folder to move</key>
+    <key alias="folderToCopy">Select the folder to copy</key>
+    <key alias="structureBelow">to in the tree structure below</key>
+    <key alias="allDocumentTypes">All Document types</key>
+    <key alias="allDocuments">All Documents</key>
+    <key alias="allMediaItems">All media items</key>
+    <key alias="usingThisDocument">using this document type will be deleted permanently, please confirm you want to delete these as well.</key>
+    <key alias="usingThisMedia">using this media type will be deleted permanently, please confirm you want to delete these as well.</key>
+    <key alias="usingThisMember">using this member type will be deleted permanently, please confirm you want to delete these as well</key>
+    <key alias="andAllDocuments">and all documents using this type</key>
+    <key alias="andAllMediaItems">and all media items using this type</key>
+    <key alias="andAllMembers">and all members using this type</key>
+    <key alias="memberCanEdit">Member can edit</key>
+    <key alias="memberCanEditDescription">Allow this property value to be edited by the member on their profile page</key>
+    <key alias="isSensitiveData">Is sensitive data</key>
+    <key alias="isSensitiveDataDescription">Hide this property value from content editors that don't have access to view sensitive information</key>
+    <key alias="showOnMemberProfile">Show on member profile</key>
+    <key alias="showOnMemberProfileDescription">Allow this property value to be displayed on the member profile page</key>
+    <key alias="tabHasNoSortOrder">tab has no sort order</key>
+    <key alias="compositionUsageHeading">Where is this composition used?</key>
+    <key alias="compositionUsageSpecification">This composition is currently used in the composition of the following content types:</key>
+    <key alias="variantsHeading">Allow varying by culture</key>
+	<key alias="cultureVariantHeading">Allow vary by culture</key>
+    <key alias="segmentVariantHeading">Allow segmentation</key>
+    <key alias="cultureVariantLabel">Vary by culture</key>
+    <key alias="segmentVariantLabel">Vary by segments</key>    
+    <key alias="variantsDescription">Allow editors to create content of this type in different languages</key>
+    <key alias="cultureVariantDescription">Allow editors to create content of different languages.</key>
+    <key alias="segmentVariantDescription">Allow editors to create segments of this content.</key>
+    <key alias="allowVaryByCulture">Dopusti različite vrijednosti prema kulturi</key>
+	<key alias="allowVaryBySegment">Allow segmentation</key>
+    <key alias="elementType">Element type</key>
+    <key alias="elementHeading">Is an Element type</key>
+    <key alias="elementDescription">An Element type is meant to be used for instance in Nested Content, and not in the tree</key>
+    <key alias="elementCannotToggle">A document type cannot be changed to an element type once it has been used to create one or more content items.</key>
+    <key alias="elementDoesNotSupport">This is not applicable for an Element type</key>
+    <key alias="propertyHasChanges">You have made changes to this property. Are you sure you want to discard them?</key>
+  </area>
+  <area alias="languages">
+    <key alias="addLanguage">Dodaj jezik</key>
+    <key alias="mandatoryLanguage">Obavezan jezik</key>
+    <key alias="mandatoryLanguageHelp">Properties on this language have to be filled out before the node can be published.</key>
+    <key alias="defaultLanguage">Zadani jezik</key>
+    <key alias="defaultLanguageHelp">An Umbraco site can only have one default language set.</key>
+    <key alias="changingDefaultLanguageWarning">Switching default language may result in default content missing.</key>
+    <key alias="fallsbackToLabel">Falls back to</key>
+    <key alias="noFallbackLanguageOption">No fall back language</key>
+    <key alias="fallbackLanguageDescription">To allow multi-lingual content to fall back to another language if not present in the requested language, select it here.</key>
+    <key alias="fallbackLanguage">Fall back language</key>
+	<key alias="none">none</key>
+  </area>
+  <area alias="macro">
+    <key alias="addParameter">Dodaj parametar</key>
+    <key alias="editParameter">Uredi parametar</key>
+    <key alias="enterMacroName">Upiši macro naziv</key>
+    <key alias="parameters">Parametri</key>
+    <key alias="parametersDescription">Definirajte parametre koji bi trebali biti dostupni kod korištenja ovog macro-a.</key>
+    <key alias="selectViewFile">Odaberite partial view macro datoteku</key>
+  </area>
+  <area alias="modelsBuilder">
+    <key alias="buildingModels">Generiranje modela</key>
+    <key alias="waitingMessage">ovo može malo potrajati, ne brinite</key>
+    <key alias="modelsGenerated">Modeli generirani</key>
+    <key alias="modelsGeneratedError">Modeli ne mogu biti generirani</key>
+    <key alias="modelsExceptionInUlog">Generiranje modela nije uspjelo, pogledajte iznimku u U zapisima</key>
+  </area>
+  <area alias="templateEditor">
+    <key alias="addFallbackField">Add fallback field</key>
+    <key alias="fallbackField">Fallback field</key>
+    <key alias="addDefaultValue">Add default value</key>
+    <key alias="defaultValue">Default value</key>
+    <key alias="alternativeField">Fallback field</key>
+    <key alias="alternativeText">Default value</key>
+    <key alias="casing">Casing</key>
+    <key alias="encoding">Encoding</key>
+    <key alias="chooseField">Choose field</key>
+    <key alias="convertLineBreaks">Convert line breaks</key>
+    <key alias="convertLineBreaksDescription">Yes, convert line breaks</key>
+    <key alias="convertLineBreaksHelp">Replaces line breaks with 'br' html tag</key>
+    <key alias="customFields">Custom Fields</key>
+    <key alias="dateOnly">Date only</key>
+    <key alias="formatAndEncoding">Format and encoding</key>
+    <key alias="formatAsDate">Format as date</key>
+    <key alias="formatAsDateDescr">Format the value as a date, or a date with time, according to the active culture</key>
+    <key alias="htmlEncode">HTML encode</key>
+    <key alias="htmlEncodeHelp">Will replace special characters by their HTML equivalent.</key>
+    <key alias="insertedAfter">Will be inserted after the field value</key>
+    <key alias="insertedBefore">Will be inserted before the field value</key>
+    <key alias="lowercase">Lowercase</key>
+    <key alias="modifyOutput">Modify output</key>
+    <key alias="none">None</key>
+    <key alias="outputSample">Output sample</key>
+    <key alias="postContent">Insert after field</key>
+    <key alias="preContent">Insert before field</key>
+    <key alias="recursive">Recursive</key>
+    <key alias="recursiveDescr">Yes, make it recursive</key>
+    <key alias="separator">Separator</key>
+    <key alias="standardFields">Standard Fields</key>
+    <key alias="uppercase">Uppercase</key>
+    <key alias="urlEncode">URL encode</key>
+    <key alias="urlEncodeHelp">Will format special characters in URLs</key>
+    <key alias="usedIfAllEmpty">Will only be used when the field values above are empty</key>
+    <key alias="usedIfEmpty">This field will only be used if the primary field is empty</key>
+    <key alias="withTime">Date and time</key>
+  </area>
+  <area alias="translation">
+    <key alias="details">Detalji prevođenja</key>
+    <key alias="DownloadXmlDTD">Preuzmi XML DTD</key>
+    <key alias="fields">Polja</key>
+    <key alias="includeSubpages">Uključi podstranice</key>
+    <key alias="mailBody"><![CDATA[
+      Hi %0%
+
+      This is an automated mail to inform you that the document '%1%'
+      has been requested for translation into '%5%' by %2%.
+
+      Go to http://%3%/translation/details.aspx?id=%4% to edit.
+
+      Or log into Umbraco to get an overview of your translation tasks
+      http://%3%
+
+      Have a nice day!
+
+      Cheers from the Umbraco robot
+    ]]></key>
+    <key alias="noTranslators">Nisu pronađeni prevoditelji. Molimo kreirajte korisnika prevoditelja prije slanja sadržaja na prevođenje</key>
+    <key alias="pageHasBeenSendToTranslation">Stranica '%0%' je poslana na prevođenje</key>
+    <key alias="sendToTranslate">Pošalji stranicu '%0%' na prevođenje</key>
+    <key alias="totalWords">Ukupno riječi</key>
+    <key alias="translateTo">Prevedi na</key>
+    <key alias="translationDone">Prevođenje je završeno.</key>
+    <key alias="translationDoneHelp">Možete pregledati stranice koje su prevedene, odabirom ispod. Ako postoji orginalna stranica, moći ćete vidjeti usporedbu tih dviju stranica.</key>
+    <key alias="translationFailed">Prevođenje nije uspjelo, XML datoteka je možda oštećena</key>
+    <key alias="translationOptions">Opcije prevođenja</key>
+    <key alias="translator">Prevoditelj</key>
+    <key alias="uploadTranslationXml">prenesi XML prijevoda</key>
+  </area>
+  <area alias="treeHeaders">
+    <key alias="content">Sadržaj</key>
+    <key alias="contentBlueprints">Predlošci Sadržaja</key>
+    <key alias="media">Media</key>
+    <key alias="cacheBrowser">Preglednik međuspremnika</key>
+    <key alias="contentRecycleBin">Koš za smeće</key>
+    <key alias="createdPackages">Kreirani paketi</key>
+    <key alias="dataTypes">Tipovi Podataka</key>
+    <key alias="dictionary">Riječnik</key>
+    <key alias="installedPackages">Instalirani paketi</key>
+    <key alias="installSkin">Instaliraj skin</key>
+    <key alias="installStarterKit">Instaliraj starter kit</key>
+    <key alias="languages">Jezici</key>
+    <key alias="localPackage">Instaliraj lokalni paket</key>
+    <key alias="macros">Macro</key>
+    <key alias="mediaTypes">Tipovi Media</key>
+    <key alias="member">Članovi</key>
+    <key alias="memberGroups">Grupe Članova</key>
+    <key alias="memberRoles">Uloge Članova</key>
+    <key alias="memberTypes">Tipovi Članova</key>
+    <key alias="documentTypes">Tipovi Dokumenata</key>
+    <key alias="relationTypes">Vrste odnosa</key>
+    <key alias="packager">Paketi</key>
+    <key alias="packages">Paketi</key>
+    <key alias="partialViews">Partial Views</key>
+    <key alias="partialViewMacros">Partial View Macro Files</key>
+    <key alias="repositories">Instaliraj sa repozitorija</key>
+    <key alias="runway">Instaliraj Runway</key>
+    <key alias="runwayModules">Runway moduli</key>
+    <key alias="scripting">Datoteke Skripti</key>
+    <key alias="scripts">Skripte</key>
+    <key alias="stylesheets">Stilovi</key>
+    <key alias="templates">Predlošci</key>
+    <key alias="logViewer">Preglednik zapisa</key>
+    <key alias="users">Korisnici</key>
+    <key alias="settingsGroup">Postavke</key>
+    <key alias="templatingGroup">Dizajniranje</key>
+    <key alias="thirdPartyGroup">Treće Strane</key>
+  </area>
+  <area alias="update">
+    <key alias="updateAvailable">Postoji nova verzija</key>
+    <key alias="updateDownloadText">%0% je spremno, kliknite ovdje za preuzimanje</key>
+    <key alias="updateNoServer">Veza prema serveru je prekinuta</key>
+    <key alias="updateNoServerError">Pogreška prilikom provjeravanja ažuriranja. Za dodtne informacije provjerite trace-stack</key>
+  </area>
+  <area alias="user">
+    <key alias="access">Pristup</key>
+    <key alias="accessHelp">Na temelju dodijeljenih grupa i početnih čvorova, korisnik ima pristup sljedećim čvorovima</key>
+    <key alias="assignAccess">Dodjeli pristup</key>
+    <key alias="administrators">Administrator</key>
+    <key alias="categoryField">Polje kategorije</key>
+    <key alias="createDate">Korisnik kreiran</key>
+    <key alias="changePassword">Promijeni svoju lozinku</key>
+    <key alias="changePhoto">Promijeni sliku</key>
+    <key alias="newPassword">Nova lozinka</key>
+    <key alias="noLockouts">nije bio zaključan</key>
+    <key alias="noPasswordChange">Lozinka dosad nije bila promijenjena</key>
+    <key alias="confirmNewPassword">Potvrdi novu lozinku</key>
+    <key alias="changePasswordDescription">Možete promijeniti svoju lozinku za pristup Umbraco Back Officeu tako da ispunite donji obrazac i kliknete gumb "Promjeni lozinku"</key>
+    <key alias="contentChannel">Kanal Sadržaja</key>
+    <key alias="createAnotherUser">Kreiraj drugog korisnika</key>
+    <key alias="createUserHelp">Kreirajte nove korisnike kako biste im omogućili pristup Umbraco-u. Kada se kreira novi korisnik, stvorit će se lozinka koju možete podijeliti s korisnikom.</key>
+    <key alias="descriptionField">Polje s opisom</key>
+    <key alias="disabled">Onemogući korsnika</key>
+    <key alias="documentType">Tip Dokumenta</key>
+    <key alias="editors">Urednik</key>
+    <key alias="excerptField">Polje kratkog opisa</key>
+    <key alias="failedPasswordAttempts">Neuspjeli pokušaji prijave</key>
+    <key alias="goToProfile">idi na profil korisnika</key>
+    <key alias="groupsHelp">Dodajte grupe za dodjelu pristupa i dozvola</key>
+    <key alias="inviteAnotherUser">Pozovi drugog korisnika</key>
+    <key alias="inviteUserHelp">Pozovite nove korisnike da im omogućite pristup Umbraco-u. Korisniku bit će poslan email s pozivnicom i informacijama o tome kako se prijaviti u Umbraco. Pozivnice traju 72 sata.</key>
+    <key alias="language">Jezik</key>
+    <key alias="languageHelp">Postavite jezik koji ćete vidjeti u izbornicima i dijaloškim okvirima</key>
+    <key alias="lastLockoutDate">Zadnji datum zaključavanja</key>
+    <key alias="lastLogin">Zadnja prijava</key>
+    <key alias="lastPasswordChangeDate">Lozinka zadnje promijenjena</key>
+    <key alias="loginname">Korisničko ime</key>
+    <key alias="mediastartnode">Media početni čvor</key>
+    <key alias="mediastartnodehelp">Limitiraj biblioteku media na specifičan početni čvor</key>
+    <key alias="mediastartnodes">Media početni čvor</key>
+    <key alias="mediastartnodeshelp">Limitiraj biblioteku media na specifičan početni čvor</key>
+    <key alias="modules">Sekcije</key>
+    <key alias="noConsole">Onemogući Umbraco Pristup</key>
+    <key alias="noLogin">još se nije prijavio</key>
+    <key alias="oldPassword">Stara lozinka</key>
+    <key alias="password">Lozinka</key>
+    <key alias="resetPassword">Resetiraj lozinku</key>
+    <key alias="passwordChanged">Vaša lozinka je promijenjena!</key>
+    <key alias="passwordChangedGeneric">Password changed</key>
+    <key alias="passwordConfirm">Molimo potvrdite novu lozinku</key>
+    <key alias="passwordEnterNew">Upišite novu lozinku</key>
+    <key alias="passwordIsBlank">Vaša nova lozinka ne može biti prazna!</key>
+    <key alias="passwordCurrent">Trenutna lozinka</key>
+    <key alias="passwordInvalid">Nevažeća trenutna lozinka</key>
+    <key alias="passwordIsDifferent">Postoji razlika između nove lozinke i potvrđene lozinke. Molimo pokušajte ponovno!</key>
+    <key alias="passwordMismatch">Potvrđena lozinka ne odgovara novoj lozinki!</key>
+    <key alias="permissionReplaceChildren">Zamijenite dozvole podređenih čvorova</key>
+    <key alias="permissionSelectedPages">Trenutno mijenjate dozvole za stranice:</key>
+    <key alias="permissionSelectPages">Odaberite stranice da biste izmijenili njihove dozvole</key>
+    <key alias="removePhoto">Ukloni sliku</key>
+    <key alias="permissionsDefault">Zadane dozvole</key>
+    <key alias="permissionsGranular">Opširnije dozvole</key>
+    <key alias="permissionsGranularHelp">Postavi dozvole za specifičan čvor</key>
+    <key alias="profile">Profil</key>
+    <key alias="searchAllChildren">Pretraži sve podređeno</key>
+    <key alias="sectionsHelp">Dodaj sekcije kojima korisnik može pristupiti</key>
+    <key alias="selectUserGroups">Odaberi grupu korisnika</key>
+    <key alias="noStartNode">Nije odabran početni čvor</key>
+    <key alias="noStartNodes">Nisu odabrani početni čvorovi</key>
+    <key alias="startnode">Sadržaj početni čvor</key>
+    <key alias="startnodehelp">Limitiraj stablo sadržaja na specifičan početni čvor</key>
+    <key alias="startnodes">Sadržaj početni čvor</key>
+    <key alias="startnodeshelp">Limitiraj stablo sadržaja na specifičan početni čvor</key>
+    <key alias="updateDate">Korisnik zadnje ažuriran</key>
+    <key alias="userCreated">je kreiran</key>
+    <key alias="userCreatedSuccessHelp">Novi korisnik je uspješno kreiran. Za prijavu u Umbraco koristite lozinku dolje ispod.</key>
+    <key alias="userManagement">Upravljanje Korisnicima</key>
+    <key alias="username">Naziv</key>
+    <key alias="userPermissions">Dozvole korisnika</key>
+    <key alias="usergroup">Korisnička grupa</key>
+    <key alias="userInvited">je pozvan</key>
+    <key alias="userInvitedSuccessHelp">Novom korisniku je poslana pozivnica s pojedinostima o tome kako se prijaviti na Umbraco.</key>
+    <key alias="userinviteWelcomeMessage">Pozdrav i dobrodošli u Umbraco! Jedna minuta bit će vam potrebna da postavite svoju lozinku i dodate svoju profilnu sliku.</key>
+    <key alias="userinviteExpiredMessage">Dobrodošli u Umbraco! Nažalost pozivnica je istekla. Molimo kontaktirajte svog administratora i od njega tražite da ju ponovno pošalje.</key>
+    <key alias="userinviteAvatarMessage">Ako postavite svoju fotografiju, drugi korisnici će vas lako prepoznati. Kliknite krug iznad da biste prenijeli svoju fotografiju.</key>
+    <key alias="writer">Pisac</key>
+    <key alias="change">Promjeni</key>
+    <key alias="yourProfile" version="7.0">Vaš profil</key>
+    <key alias="yourHistory" version="7.0">Vaša nedavna povijest</key>
+    <key alias="sessionExpires" version="7.0">Sesija istjeće za</key>
+    <key alias="inviteUser">Pozovi korisnika</key>
+    <key alias="createUser">Kreiraj korisnika</key>
+    <key alias="sendInvite">Pošalji pozivnicu</key>
+    <key alias="backToUsers">Povratak na korisnike</key>
+    <key alias="inviteEmailCopySubject">Umbraco: Pozivnica</key>
+    <key alias="inviteEmailCopyFormat"><![CDATA[
+        <html>
+			<head>
+				<meta name='viewport' content='width=device-width'>
+				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+			</head>
+			<body class='' style='font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; color: #392F54; line-height: 22px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #1d1333; margin: 0; padding: 0;' bgcolor='#1d1333'>
+				<style type='text/css'> @media only screen and (max-width: 620px) {table[class=body] h1 {font-size: 28px !important; margin-bottom: 10px !important; } table[class=body] .wrapper {padding: 32px !important; } table[class=body] .article {padding: 32px !important; } table[class=body] .content {padding: 24px !important; } table[class=body] .container {padding: 0 !important; width: 100% !important; } table[class=body] .main {border-left-width: 0 !important; border-radius: 0 !important; border-right-width: 0 !important; } table[class=body] .btn table {width: 100% !important; } table[class=body] .btn a {width: 100% !important; } table[class=body] .img-responsive {height: auto !important; max-width: 100% !important; width: auto !important; } } .btn-primary table td:hover {background-color: #34495e !important; } .btn-primary a:hover {background-color: #34495e !important; border-color: #34495e !important; } .btn  a:visited {color:#FFFFFF;} </style>
+				<table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;" bgcolor="#1d1333">
+					<tr>
+						<td style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding: 24px;" valign="top">
+							<table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+								<tr>
+									<td background="https://umbraco.com/umbraco/assets/img/application/logo.png" bgcolor="#1d1333" width="28" height="28" valign="top" style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
+										<!--[if gte mso 9]> <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:30px;height:30px;"> <v:fill type="tile" src="https://umbraco.com/umbraco/assets/img/application/logo.png" color="#1d1333" /> <v:textbox inset="0,0,0,0"> <![endif]-->
+										<div> </div>
+										<!--[if gte mso 9]> </v:textbox> </v:rect> <![endif]-->
+									</td>
+									<td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table border='0' cellpadding='0' cellspacing='0' class='body' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;' bgcolor='#1d1333'>
+					<tr>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+						<td class='container' style='font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 560px; width: 560px; margin: 0 auto; padding: 10px;' valign='top'>
+							<div class='content' style='box-sizing: border-box; display: block; max-width: 560px; margin: 0 auto; padding: 10px;'>
+								<br>
+								<table class='main' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 3px; background: #FFFFFF;' bgcolor='#FFFFFF'>
+									<tr>
+										<td class='wrapper' style='font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 50px;' valign='top'>
+											<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;'>
+												<tr>
+													<td style='line-height: 24px; font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'>
+														<h1 style='color: #392F54; font-family: sans-serif; font-weight: bold; line-height: 1.4; font-size: 24px; text-align: left; text-transform: capitalize; margin: 0 0 30px;' align='left'>
+															Hi %0%,
+														</h1>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															You have been invited by <a href="mailto:%4%" style="text-decoration: underline; color: #392F54; -ms-word-break: break-all; word-break: break-all;">%1%</a> to the Umbraco Back Office.
+														</p>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Message from <a href="mailto:%1%" style="text-decoration: none; color: #392F54; -ms-word-break: break-all; word-break: break-all;">%1%</a>:
+															<br/>
+															<em>%2%</em>
+														</p>
+														<table border='0' cellpadding='0' cellspacing='0' class='btn btn-primary' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;'>
+															<tbody>
+																<tr>
+																	<td align='left' style='font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;' valign='top'>
+																		<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;'>
+																			<tbody>
+																				<tr>
+																					<td style='font-family: sans-serif; font-size: 14px; vertical-align: top; border-radius: 5px; text-align: center; background: #35C786;' align='center' bgcolor='#35C786' valign='top'>
+																						<a href='%3%' target='_blank' style='color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; word-break: break-all; border-radius: 5px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; text-transform: capitalize; background: #35C786; margin: 0; padding: 12px 30px; border: 1px solid #35c786;'>
+																							Click this link to accept the invite
+																						</a>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+														<p style='max-width: 400px; display: block; color: #392F54; font-family: sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; margin: 15px 0;'>If you cannot click on the link, copy and paste this URL into your browser window:</p>
+															<table border='0' cellpadding='0' cellspacing='0'>
+																<tr>
+																	<td style='-ms-word-break: break-all; word-break: break-all; font-family: sans-serif; font-size: 11px; line-height:14px;'>
+																		<font style="-ms-word-break: break-all; word-break: break-all; font-size: 11px; line-height:14px;">
+																			<a style='-ms-word-break: break-all; word-break: break-all; color: #392F54; text-decoration: underline; font-size: 11px; line-height:15px;' href='%3%'>%3%</a>
+																		</font>
+																	</td>
+																</tr>
+															</table>
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<br><br><br>
+							</div>
+						</td>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+					</tr>
+				</table>
+			</body>
+    </html>]]></key>
+    <key alias="invite">Pozovi</key>
+    <key alias="defaultInvitationMessage">Ponovno slanje pozivnice...</key>
+    <key alias="deleteUser">Obriši Korisnika</key>
+    <key alias="deleteUserConfirmation">Jeste li sigurni da želite obrisati ovaj korisnički račun?</key>
+    <key alias="stateAll">Svi</key>
+    <key alias="stateActive">Aktivan</key>
+    <key alias="stateDisabled">Onemogućeni</key>
+    <key alias="stateLockedOut">Zaključani</key>
+    <key alias="stateInvited">Pozvani</key>
+    <key alias="stateInactive">Neaktivni</key>
+    <key alias="sortNameAscending">Naziv (A-Z)</key>
+    <key alias="sortNameDescending">Naziv (Z-A)</key>
+    <key alias="sortCreateDateAscending">Najnovije</key>
+    <key alias="sortCreateDateDescending">Najstarije</key>
+    <key alias="sortLastLoginDateDescending">Zadnja prijava</key>
+	<key alias="noUserGroupsAdded">No user groups have been added</key>
+  </area>
+  <area alias="validation">
+    <key alias="validation">Validacija</key>
+    <key alias="validateAsEmail">Validiraj kao email adresu</key>
+    <key alias="validateAsNumber">Validiraj kao broj</key>
+    <key alias="validateAsUrl">Validiraj kao URL</key>
+    <key alias="enterCustomValidation">...ili upiši prilagođenu validaciju</key>
+    <key alias="fieldIsMandatory">Polje je obavezno</key>
+    <key alias="mandatoryMessage">Enter a custom validation error message (optional)</key>
+    <key alias="validationRegExp">Upiši regular expression</key>
+    <key alias="validationRegExpMessage">Enter a custom validation error message (optional)</key>
+    <key alias="minCount">Morate dodati najmanje</key>
+    <key alias="maxCount">Možete jedino imati</key>
+    <key alias="addUpTo">Add up to</key>
+    <key alias="items">stavke</key>
+    <key alias="urls">url(s)</key>
+    <key alias="urlsSelected">url(s) selected</key>
+    <key alias="itemsSelected">odabrane stavke</key>
+    <key alias="invalidDate">Nevažeći datum</key>
+    <key alias="invalidNumber">Nije broj</key>
+    <key alias="invalidEmail">Nevažeći email</key>
+    <key alias="invalidNull">Vrijednost ne može biti null</key>
+    <key alias="invalidEmpty">Vrijednost ne može biti prazna</key>
+    <key alias="invalidPattern">Vrijednost nije važeća, ne odgovara niti jednom pravilnom obrascu</key>
+    <key alias="customValidation">Prilagođena validacija</key>
+    <key alias="entriesShort"><![CDATA[Minimum %0% entries, requires <strong>%1%</strong> more.]]></key>
+    <key alias="entriesExceed"><![CDATA[Maximum %0% entries, <strong>%1%</strong> too many.]]></key>
+  </area>
+  <area alias="healthcheck">
+    <!-- The following keys get these tokens passed in:
+	     0: Current value
+		   1: Recommended value
+		   2: XPath
+		   3: Configuration file path
+	  -->
+    <key alias="checkSuccessMessage">Vrijednost je postavljena na preporučenu vrijednost: '%0%'.</key>
+    <key alias="rectifySuccessMessage">Vrijednost je postavljena na '%1%' za XPath '%2%' u konfiguracijskoj datoteci '%3%'.</key>
+    <key alias="checkErrorMessageDifferentExpectedValue">Očekivana vrijednost '%1%' za '%2%' u konfiguracijskoj datoteci '%3%', ali je pronađeno '%0%'.</key>
+    <key alias="checkErrorMessageUnexpectedValue">Found unexpected value '%0%' for '%2%' in configuration file '%3%'.</key>
+    <!-- The following keys get these tokens passed in:
+	     0: Current value
+		   1: Recommended value
+	  -->
+    <key alias="customErrorsCheckSuccessMessage">Prilagođene greške su postavljene na '%0%'.</key>
+    <key alias="customErrorsCheckErrorMessage">Prilagođene greške su trenutno postavljene na '%0%'. Preporučeno je postaviti iste na '%1%' prije objave uživo.</key>
+    <key alias="customErrorsCheckRectifySuccessMessage">Prilagođene greške uspješno su postavljene na '%0%'.</key>
+    <key alias="macroErrorModeCheckSuccessMessage">MakroGreške postavljene su na '%0%'.</key>
+    <key alias="macroErrorModeCheckErrorMessage">MakroGreške postavljene su na '%0%' što će spriječiti učitavanje nekih ili svih stranica na vašem webu ukoliko postoji koja greška u makro dokumentima. Ispravljanjem ove postavke postavit će se vrijednost na '%1%'.</key>
+    <key alias="macroErrorModeCheckRectifySuccessMessage">MakroGreške postavljene su na '%0%'.</key>
+    <!-- The following keys get these tokens passed in:
+	     0: Current value
+		   1: Recommended value
+		   2: Server version
+	  -->
+    <key alias="trySkipIisCustomErrorsCheckSuccessMessage">Try Skip IIS Custom Errors is set to '%0%' and you're using IIS version '%1%'.</key>
+    <key alias="trySkipIisCustomErrorsCheckErrorMessage">Try Skip IIS Custom Errors is currently '%0%'. It is recommended to set this to '%1%' for your IIS version (%2%).</key>
+    <key alias="trySkipIisCustomErrorsCheckRectifySuccessMessage">Try Skip IIS Custom Errors successfully set to '%0%'.</key>
+    <!-- The following keys get predefined tokens passed in that are not all the same, like above -->
+    <key alias="configurationServiceFileNotFound">File does not exist: '%0%'.</key>
+    <key alias="configurationServiceNodeNotFound"><![CDATA[Unable to find <strong>'%0%'</strong> in config file <strong>'%1%'</strong>.]]></key>
+    <key alias="configurationServiceError">There was an error, check log for full error: %0%.</key>
+    <key alias="databaseSchemaValidationCheckDatabaseOk">Database - The database schema is correct for this version of Umbraco</key>
+    <key alias="databaseSchemaValidationCheckDatabaseErrors">%0% problems were detected with your database schema (Check the log for details)</key>
+    <key alias="databaseSchemaValidationCheckDatabaseLogMessage">Some errors were detected while validating the database schema against the current version of Umbraco.</key>
+    <key alias="httpsCheckValidCertificate">Your website's certificate is valid.</key>
+    <key alias="httpsCheckInvalidCertificate">Certificate validation error: '%0%'</key>
+    <key alias="httpsCheckExpiredCertificate">Your website's SSL certificate has expired.</key>
+    <key alias="httpsCheckExpiringCertificate">Your website's SSL certificate is expiring in %0% days.</key>
+    <key alias="healthCheckInvalidUrl">Error pinging the URL %0% - '%1%'</key>
+    <key alias="httpsCheckIsCurrentSchemeHttps">You are currently %0% viewing the site using the HTTPS scheme.</key>
+    <key alias="httpsCheckConfigurationRectifyNotPossible">The appSetting 'Umbraco.Core.UseHttps' is set to 'false' in your web.config file. Once you access this site using the HTTPS scheme, that should be set to 'true'.</key>
+    <key alias="httpsCheckConfigurationCheckResult">The appSetting 'Umbraco.Core.UseHttps' is set to '%0%' in your web.config file, your cookies are %1% marked as secure.</key>
+    <key alias="httpsCheckEnableHttpsError">Could not update the 'Umbraco.Core.UseHttps' setting in your web.config file. Error: %0%</key>
+    <!-- The following keys don't get tokens passed in -->
+    <key alias="httpsCheckEnableHttpsButton">Enable HTTPS</key>
+    <key alias="httpsCheckEnableHttpsDescription">Sets umbracoSSL setting to true in the appSettings of the web.config file.</key>
+    <key alias="httpsCheckEnableHttpsSuccess">The appSetting 'Umbraco.Core.UseHttps' is now set to 'true' in your web.config file, your cookies will be marked as secure.</key>
+    <key alias="rectifyButton">Fix</key>
+    <key alias="cannotRectifyShouldNotEqual">Cannot fix a check with a value comparison type of 'ShouldNotEqual'.</key>
+    <key alias="cannotRectifyShouldEqualWithValue">Cannot fix a check with a value comparison type of 'ShouldEqual' with a provided value.</key>
+    <key alias="valueToRectifyNotProvided">Value to fix check not provided.</key>
+    <key alias="compilationDebugCheckSuccessMessage">Debug compilation mode is disabled.</key>
+    <key alias="compilationDebugCheckErrorMessage">Debug compilation mode is currently enabled. It is recommended to disable this setting before go live.</key>
+    <key alias="compilationDebugCheckRectifySuccessMessage">Debug compilation mode successfully disabled.</key>
+    <key alias="traceModeCheckSuccessMessage">Trace mode is disabled.</key>
+    <key alias="traceModeCheckErrorMessage">Trace mode is currently enabled. It is recommended to disable this setting before go live.</key>
+    <key alias="traceModeCheckRectifySuccessMessage">Trace mode successfully disabled.</key>
+    <key alias="folderPermissionsCheckMessage">All folders have the correct permissions set.</key>
+    <!-- The following keys get these tokens passed in:
+	    0: Comma delimitted list of failed folder paths
+  	-->
+    <key alias="requiredFolderPermissionFailed"><![CDATA[The following folders must be set up with modify permissions but could not be acccessed: <strong>%0%</strong>.]]></key>
+    <key alias="optionalFolderPermissionFailed"><![CDATA[The following folders must be set up with modify permissions for certain Umbraco operations to function but could not be acccessed: <strong>%0%</strong>. If they aren't being written to no action need be taken.]]></key>
+    <key alias="filePermissionsCheckMessage">All files have the correct permissions set.</key>
+    <!-- The following keys get these tokens passed in:
+	    0: Comma delimitted list of failed folder paths
+  	-->
+    <key alias="requiredFilePermissionFailed"><![CDATA[The following files must be set up with write permissions but could not be acccessed: <strong>%0%</strong>.]]></key>
+    <key alias="optionalFilePermissionFailed"><![CDATA[The following files must be set up with write permissions for certain Umbraco operations to function but could not be acccessed: <strong>%0%</strong>. If they aren't being written to no action need be taken.]]></key>
+    <key alias="clickJackingCheckHeaderFound"><![CDATA[The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was found.]]></key>
+    <key alias="clickJackingCheckHeaderNotFound"><![CDATA[The header or meta-tag <strong>X-Frame-Options</strong> used to control whether a site can be IFRAMEd by another was not found.]]></key>
+    <key alias="setHeaderInConfig">Set Header in Config</key>
+    <key alias="clickJackingSetHeaderInConfigDescription">Adds a value to the httpProtocol/customHeaders section of web.config to prevent the site being IFRAMEd by other websites.</key>
+    <key alias="clickJackingSetHeaderInConfigSuccess">A setting to create a header preventing IFRAMEing of the site by other websites has been added to your web.config file.</key>
+    <key alias="setHeaderInConfigError">Could not update web.config file. Error: %0%</key>
+    <key alias="noSniffCheckHeaderFound"><![CDATA[The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was found.]]></key>
+    <key alias="noSniffCheckHeaderNotFound"><![CDATA[The header or meta-tag <strong>X-Content-Type-Options</strong> used to protect against MIME sniffing vulnerabilities was not found.]]></key>
+    <key alias="noSniffSetHeaderInConfigDescription">Adds a value to the httpProtocol/customHeaders section of web.config to protect against MIME sniffing vulnerabilities.</key>
+    <key alias="noSniffSetHeaderInConfigSuccess">A setting to create a header protecting against MIME sniffing vulnerabilities has been added to your web.config file.</key>
+    <key alias="hSTSCheckHeaderFound"><![CDATA[The header <strong>Strict-Transport-Security</strong>, also known as the HSTS-header, was found.]]></key>
+    <key alias="hSTSCheckHeaderNotFound"><![CDATA[The header <strong>Strict-Transport-Security</strong> was not found.]]></key>
+    <key alias="hSTSSetHeaderInConfigDescription">Adds the header 'Strict-Transport-Security' with the value 'max-age=10886400' to the httpProtocol/customHeaders section of web.config. Use this fix only if you will have your domains running with https for the next 18 weeks (minimum).</key>
+    <key alias="hSTSSetHeaderInConfigSuccess">The HSTS header has been added to your web.config file.</key>
+    <key alias="xssProtectionCheckHeaderFound"><![CDATA[The header <strong>X-XSS-Protection</strong> was found.]]></key>
+    <key alias="xssProtectionCheckHeaderNotFound"><![CDATA[The header <strong>X-XSS-Protection</strong> was not found.]]></key>
+    <key alias="xssProtectionSetHeaderInConfigDescription">Adds the header 'X-XSS-Protection' with the value '1; mode=block' to the httpProtocol/customHeaders section of web.config. </key>
+    <key alias="xssProtectionSetHeaderInConfigSuccess">The X-XSS-Protection header has been added to your web.config file.</key>
+    <!-- The following key get these tokens passed in:
+	    0: Comma delimitted list of headers found
+  	-->
+    <key alias="excessiveHeadersFound"><![CDATA[The following headers revealing information about the website technology were found: <strong>%0%</strong>.]]></key>
+    <key alias="excessiveHeadersNotFound">No headers revealing information about the website technology were found.</key>
+    <key alias="smtpMailSettingsNotFound">In the Web.config file, system.net/mailsettings could not be found.</key>
+    <key alias="smtpMailSettingsHostNotConfigured">In the Web.config file system.net/mailsettings section, the host is not configured.</key>
+    <key alias="smtpMailSettingsConnectionSuccess">SMTP settings are configured correctly and the service is operating as expected.</key>
+    <key alias="smtpMailSettingsConnectionFail">The SMTP server configured with host '%0%' and port '%1%' could not be reached. Please check to ensure the SMTP settings in the Web.config file system.net/mailsettings are correct.</key>
+    <key alias="notificationEmailsCheckSuccessMessage"><![CDATA[Notification email has been set to <strong>%0%</strong>.]]></key>
+    <key alias="notificationEmailsCheckErrorMessage"><![CDATA[Notification email is still set to the default value of <strong>%0%</strong>.]]></key>
+    <key alias="scheduledHealthCheckEmailBody"><![CDATA[<html><body><p>Results of the scheduled Umbraco Health Checks run on %0% at %1% are as follows:</p>%2%</body></html>]]></key>
+    <key alias="scheduledHealthCheckEmailSubject">Umbraco Health Check Status: %0%</key>
+	<key alias="checkAllGroups">Check All Groups</key>
+    <key alias="checkGroup">Check group</key>
+    <key alias="helpText">
+        <![CDATA[
+        <p>The health checker evaluates various areas of your site for best practice settings, configuration, potential problems, etc. You can easily fix problems by pressing a button.
+        You can add your own health checks, have a look at <a href="https://our.umbraco.com/documentation/Extending/Healthcheck/" target="_blank" class="btn-link -underline">the documentation for more information</a> about custom health checks.</p>
+        ]]>
+    </key>
+  </area>
+  <area alias="redirectUrls">
+    <key alias="disableUrlTracker">Onemogući URL praćenje</key>
+    <key alias="enableUrlTracker">Omogući URL praćenje</key>
+    <key alias="culture">Culture</key>
+    <key alias="originalUrl">Originalni URL</key>
+    <key alias="redirectedTo">Preusmjereno na</key>
+    <key alias="redirectUrlManagement">Upravljanje Preusmjeravanjima Url-ova</key>    <key alias="panelInformation">The following URLs redirect to this content item:</key>
+    <key alias="panelInformation">The following URLs redirect to this content item:</key>
+    <key alias="noRedirects">nema preusmjeravanja</key>
+    <key alias="noRedirectsDescription">When a published page gets renamed or moved a redirect will automatically be made to the new page.</key>
+    <key alias="confirmRemove">Are you sure you want to remove the redirect from '%0%' to '%1%'?</key>
+    <key alias="redirectRemoved">Redirect URL removed.</key>
+    <key alias="redirectRemoveError">Error removing redirect URL.</key>
+    <key alias="redirectRemoveWarning">This will remove the redirect</key>
+    <key alias="confirmDisable">jeste li sigurni da želite onemogućiti praćenje URL-ova?</key>
+    <key alias="disabledConfirm">URL praćenje je sada onemogućeno.</key>
+    <key alias="disableError">Error disabling the URL tracker, more information can be found in your log file.</key>
+    <key alias="enabledConfirm">URL tracker has now been enabled.</key>
+    <key alias="enableError">Error enabling the URL tracker, more information can be found in your log file.</key>
+  </area>
+  <area alias="emptyStates">
+    <key alias="emptyDictionaryTree">No Dictionary items to choose from</key>
+  </area>
+  <area alias="textbox">
+    <key alias="characters_left"><![CDATA[<strong>%0%</strong> znakova ostalo.]]></key>
+    <key alias="characters_exceed"><![CDATA[Maksimum %0% znakova, <strong>%1%</strong> previše.]]></key>
+  </area>
+  <area alias="recycleBin">
+    <key alias="contentTrashed">Trashed content with Id: {0} related to original parent content with Id: {1}</key>
+    <key alias="mediaTrashed">Trashed media with Id: {0} related to original parent media item with Id: {1}</key>
+    <key alias="itemCannotBeRestored">Cannot automatically restore this item</key>
+    <key alias="itemCannotBeRestoredHelpText">There is no location where this item can be automatically restored. You can move the item manually using the tree below.</key>
+    <key alias="wasRestored">was restored under</key>
+  </area>
+  <area alias="relationType">
+    <key alias="direction">Direction</key>
+    <key alias="parentToChild">Parent to child</key>
+    <key alias="bidirectional">Bidirectional</key>
+    <key alias="parent">Parent</key>
+    <key alias="child">Child</key>
+    <key alias="count">Count</key>
+    <key alias="relations">Relations</key>
+    <key alias="created">Created</key>
+    <key alias="comment">Comment</key>
+    <key alias="name">Name</key>
+    <key alias="noRelations">No relations for this relation type.</key>
+    <key alias="tabRelationType">Relation Type</key>
+    <key alias="tabRelations">Relations</key>
+  </area>
+  <area alias="dashboardTabs">
+    <key alias="contentIntro">Početak rada</key>
+    <key alias="contentRedirectManager">Preusmjeravanje URL-ova</key>
+    <key alias="mediaFolderBrowser">Sadržaj</key>
+    <key alias="settingsWelcome">Dobrodošli</key>
+    <key alias="settingsExamine">Upravljanje Examine</key>
+    <key alias="settingsPublishedStatus">Statusi Objava</key>
+    <key alias="settingsModelsBuilder">Generiranje Modela</key>
+    <key alias="settingsHealthCheck">Provjera Zdravlja</key>
+    <key alias="settingsProfiler">Profiliranje</key>
+    <key alias="memberIntro">Početak rada</key>
+    <key alias="formsInstall">Instaliranje Umbraco Forme</key>
+  </area>
+   <area alias="visuallyHiddenTexts">
+    <key alias="goBack">Go back</key>
+    <key alias="activeListLayout">Active layout:</key>
+    <key alias="jumpTo">Jump to</key>
+    <key alias="group">group</key>
+    <key alias="passed">passed</key>
+    <key alias="warning">warning</key>
+    <key alias="failed">failed</key>
+    <key alias="suggestion">suggestion</key>
+    <key alias="checkPassed">Check passed</key>
+    <key alias="checkFailed">Check failed</key>
+    <key alias="openBackofficeSearch">Open backoffice search</key>
+    <key alias="openCloseBackofficeHelp">Open/Close backoffice help</key>
+    <key alias="openCloseBackofficeProfileOptions">Open/Close your profile options</key>
+    <key alias="assignDomainDescription">Setup Culture and Hostnames for %0%</key>
+    <key alias="createDescription">Create new node under %0%</key>
+    <key alias="protectDescription">Setup Public access on %0%</key>
+    <key alias="rightsDescription">Setup Permissions on %0%</key>
+    <key alias="sortDescription">Change sort order for %0%</key>
+    <key alias="createblueprintDescription">Create Content Template based on %0%</key>
+    <key alias="openContextMenu">Open context menu for</key>
+    <key alias="currentLanguage">Current language</key>
+    <key alias="switchLanguage">Switch language to</key>
+    <key alias="createNewFolder">Create new folder</key>
+    <key alias="newPartialView">Partial View</key>
+    <key alias="newPartialViewMacro">Partial View Macro</key>
+    <key alias="newMember">Member</key>
+    <key alias="newDataType">Data type</key>
+    <key alias="redirectDashboardSearchLabel">Search the redirect dashboard</key>
+    <key alias="userGroupSearchLabel">Search the user group section</key>
+    <key alias="userSearchLabel">Search the users section</key>
+    <key alias="createItem">Create item</key>
+    <key alias="create">Create</key>
+    <key alias="edit">Edit</key>
+    <key alias="name">Name</key>
+    <key alias="addNewRow">Add new row</key>
+    <key alias="tabExpand">View more options</key>
+      <key alias="hasTranslation">Has translation</key>
+      <key alias="noTranslation">Missing translation</key>
+      <key alias="dictionaryListCaption">Dictionary items</key>
+  </area>
+  <area alias="references">
+    <key alias="tabName">References</key>
+    <key alias="DataTypeNoReferences">This Data Type has no references.</key>
+    <key alias="labelUsedByDocumentTypes">Used in Document Types</key>
+    <key alias="noDocumentTypes">No references to Document Types.</key>
+    <key alias="labelUsedByMediaTypes">Used in Media Types</key>
+    <key alias="noMediaTypes">No references to Media Types.</key>
+    <key alias="labelUsedByMemberTypes">Used in  Member Types</key>
+    <key alias="noMemberTypes">No references to Member Types.</key>
+    <key alias="usedByProperties">Used by</key>
+    <key alias="labelUsedByDocuments">Used in Documents</key>
+    <key alias="labelUsedByMembers">Used in Members</key>
+    <key alias="labelUsedByMedia">Used in Media</key>
+  </area>
+  <area alias="logViewer">
+      <key alias="deleteSavedSearch">Delete Saved Search</key>
+      <key alias="logLevels">Log Levels</key>
+      <key alias="savedSearches">Saved Searches</key>
+      <key alias="saveSearch">Save Search</key>
+      <key alias="saveSearchDescription">Enter a friendly name for your search query</key>
+      <key alias="filterSearch">Filter Search</key>
+      <key alias="totalItems">Total Items</key>
+      <key alias="timestamp">Timestamp</key>
+      <key alias="level">Level</key>
+      <key alias="machine">Machine</key>
+      <key alias="message">Message</key>
+      <key alias="exception">Exception</key>
+      <key alias="properties">Properties</key>
+      <key alias="searchWithGoogle">Search With Google</key>
+      <key alias="searchThisMessageWithGoogle">Search this message with Google</key>
+      <key alias="searchWithBing">Search With Bing</key>
+      <key alias="searchThisMessageWithBing">Search this message with Bing</key>
+      <key alias="searchOurUmbraco">Search Our Umbraco</key>
+      <key alias="searchThisMessageOnOurUmbracoForumsAndDocs">Search this message on Our Umbraco forums and docs</key>
+      <key alias="searchOurUmbracoWithGoogle">Search Our Umbraco with Google</key>
+      <key alias="searchOurUmbracoForumsUsingGoogle">Search Our Umbraco forums using Google</key>
+      <key alias="searchUmbracoSource">Search Umbraco Source</key>
+      <key alias="searchWithinUmbracoSourceCodeOnGithub">Search within Umbraco source code on Github</key>
+      <key alias="searchUmbracoIssues">Search Umbraco Issues</key>
+      <key alias="searchUmbracoIssuesOnGithub">Search Umbraco Issues on Github</key>
+      <key alias="deleteThisSearch">Delete this search</key>
+      <key alias="findLogsWithRequestId">Find Logs with Request ID</key>
+      <key alias="findLogsWithNamespace">Find Logs with Namespace</key>
+      <key alias="findLogsWithMachineName">Find Logs with Machine Name</key>
+      <key alias="open">Open</key>
+  </area>
+  <area alias="clipboard">
+    <key alias="labelForCopyAllEntries">Copy %0%</key>
+    <key alias="labelForArrayOfItemsFrom">%0% from %1%</key>
+    <key alias="labelForRemoveAllEntries">Remove all items</key>
+    <key alias="labelForClearClipboard">Clear clipboard</key>
+  </area>
+  <area alias="propertyActions">
+    <key alias="tooltipForPropertyActionsMenu">Open Property Actions</key>
+    <key alias="tooltipForPropertyActionsMenuClose">Close Property Actions</key>
+  </area>
+  <area alias="nuCache">
+    <key alias="wait">Wait</key>
+    <key alias="refreshStatus">Refresh status</key>
+    <key alias="memoryCache">Memory Cache</key>
+    <key alias="memoryCacheDescription">
+        <![CDATA[
+            This button lets you reload the in-memory cache, by entirely reloading it from the database
+    cache (but it does not rebuild that database cache). This is relatively fast.
+    Use it when you think that the memory cache has not been properly refreshed, after some events
+    triggered&mdash;which would indicate a minor Umbraco issue.
+    (note: triggers the reload on all servers in an LB environment).
+    ]]>
+    </key>
+    <key alias="reload">Reload</key>
+    <key alias="databaseCache">Database Cache</key>
+    <key alias="databaseCacheDescription">
+        <![CDATA[
+    This button lets you rebuild the database cache, ie the content of the cmsContentNu table.
+    <strong>Rebuilding can be expensive.</strong>
+    Use it when reloading is not enough, and you think that the database cache has not been
+    properly generated&mdash;which would indicate some critical Umbraco issue.
+    ]]>
+    </key>
+    <key alias="rebuild">Rebuild</key>
+    <key alias="internals">Internals</key>
+    <key alias="internalsDescription">
+        <![CDATA[
+    This button lets you trigger a NuCache snapshots collection (after running a fullCLR GC).
+    Unless you know what that means, you probably do <em>not</em> need to use it.
+    ]]>
+    </key>
+    <key alias="collect">Collect</key>
+    <key alias="publishedCacheStatus">Published Cache Status</key>
+    <key alias="caches">Caches</key>
+  </area>
+  <area alias="profiling">
+    <key alias="performanceProfiling">Performance profiling</key>
+    <key alias="performanceProfilingDescription">
+        <![CDATA[
+                <p>
+                    Umbraco currently runs in debug mode. This means you can use the built-in performance profiler to assess the performance when rendering pages.
+                </p>
+                <p>
+                    If you want to activate the profiler for a specific page rendering, simply add <b>umbDebug=true</b> to the querystring when requesting the page.
+                </p>
+                <p>
+                    If you want the profiler to be activated by default for all page renderings, you can use the toggle below.
+                    It will set a cookie in your browser, which then activates the profiler automatically.
+                    In other words, the profiler will only be active by default in <i>your</i> browser - not everyone else's.
+                </p>
+        ]]>
+    </key>
+    <key alias="activateByDefault">Activate the profiler by default</key>
+    <key alias="reminder">Friendly reminder</key>
+    <key alias="reminderDescription">
+        <![CDATA[
+            <p>
+                You should never let a production site run in debug mode. Debug mode is turned off by setting <b>debug="false"</b> on the <b>&lt;compilation /&gt;</b> element in web.config.
+            </p>
+        ]]>
+    </key>
+    <key alias="profilerEnabledDescription">
+        <![CDATA[
+            <p>
+                Umbraco currently does not run in debug mode, so you can't use the built-in profiler. This is how it should be for a production site.
+            </p>
+            <p>
+                Debug mode is turned on by setting <b>debug="true"</b> on the <b>&lt;compilation /&gt;</b> element in web.config.
+            </p>
+        ]]>
+    </key>
+  </area>
+  <area alias="settingsDashboardVideos">
+    <key alias="trainingHeadline">Hours of Umbraco training videos are only a click away</key>
+    <key alias="trainingDescription">
+        <![CDATA[
+        <p>Want to master Umbraco? Spend a couple of minutes learning some best practices by watching one of these videos about using Umbraco. And visit <a href="http://umbraco.tv" target="_blank">umbraco.tv</a> for even more Umbraco videos</p>
+    ]]>
+    </key>
+    <key alias="getStarted">To get you started</key>
+  </area>
+  <area alias="settingsDashboard">
+    <key alias="start">Start here</key>
+    <key alias="startDescription">This section contains the building blocks for your Umbraco site. Follow the below links to find out more about working with the items in the Settings section</key>
+    <key alias="more">Find out more</key>
+    <key alias="bulletPointOne">
+        <![CDATA[
+            Read more about working with the items in Settings <a class="btn-link -underline" href="https://our.umbraco.com/documentation/Getting-Started/Backoffice/Sections/" target="_blank">in the Documentation section</a> of Our Umbraco
+        ]]>
+    </key>
+    <key alias="bulletPointTwo">
+        <![CDATA[
+            Ask a question in the <a class="btn-link -underline" href="https://our.umbraco.com/forum" target="_blank">Community Forum</a>
+        ]]>
+    </key>
+    <key alias="bulletPointThree">
+        <![CDATA[
+            Watch our <a class="btn-link -underline" href="https://umbraco.tv" target="_blank">tutorial videos</a> (some are free, some require a subscription)
+        ]]>
+    </key>
+    <key alias="bulletPointFour">
+        <![CDATA[
+            Find out about our <a class="btn-link -underline" href="https://umbraco.com/products/" target="_blank">productivity boosting tools and commercial support</a>
+        ]]>
+    </key>
+    <key alias="bulletPointFive">
+        <![CDATA[
+            Find out about real-life <a class="btn-link -underline" href="https://umbraco.com/training/" target="_blank">training and certification</a> opportunities
+        ]]>
+    </key>
+  </area>
+  <area alias="startupDashboard">
+    <key alias="fallbackHeadline">Welcome to The Friendly CMS</key>
+    <key alias="fallbackDescription">Thank you for choosing Umbraco - we think this could be the beginning of something beautiful. While it may feel overwhelming at first, we've done a lot to make the learning curve as smooth and fast as possible.</key>
+  </area>
+  <area alias="formsDashboard">
+    <key alias="formsHeadline">Umbraco Forms</key>
+    <key alias="formsDescription">Create forms using an intuitive drag and drop interface. From simple contact forms that sends e-mails to advanced questionaires that integrate with CRM systems. Your clients will love it!</key>
+  </area>
+  <area alias="blockEditor">
+    <key alias="headlineCreateBlock">Create new block</key>
+    <key alias="headlineAddSettingsElementType">Attach a settings section</key>
+    <key alias="headlineAddCustomView">Select view</key>
+    <key alias="headlineAddCustomStylesheet">Select stylesheet</key>
+    <key alias="headlineAddThumbnail">Choose thumbnail</key>
+    <key alias="labelcreateNewElementType">Create new</key>
+    <key alias="labelCustomStylesheet">Custom stylesheet</key>
+    <key alias="addCustomStylesheet">Add stylesheet</key>
+    <key alias="headlineEditorAppearance">Editor apperance</key>
+    <key alias="headlineDataModels">Data models</key>
+    <key alias="headlineCatalogueAppearance">Catalogue appearance</key>
+    <key alias="labelBackgroundColor">Background color</key>
+    <key alias="labelIconColor">Icon color</key>
+    <key alias="labelContentElementType">Content model</key>
+    <key alias="labelLabelTemplate">Label</key>
+    <key alias="labelCustomView">Custom view</key>
+    <key alias="labelSettingsElementType">Settings model</key>
+    <key alias="labelEditorSize">Overlay editor size</key>
+    <key alias="addCustomView">Add custom view</key>
+    <key alias="addSettingsElementType">Add settings</key>
+    <key alias="labelTemplatePlaceholder">Overwrite label template</key>
+    <key alias="confirmDeleteBlockMessage"><![CDATA[Are you sure you want to delete content of <strong>%0%</strong>.]]></key>
+    <key alias="confirmDeleteBlockTypeMessage"><![CDATA[Are you sure you want to delete block configuration of <strong>%0%</strong>.]]></key>
+    <key alias="confirmDeleteBlockTypeNotice">The content of this block will still be present, editing of this content will no longer be available and will be shown as unsupported content.</key>
+    <key alias="blockConfigurationOverlayTitle"><![CDATA[Configuration of '%0%']]></key>
+    <key alias="thumbnail">Thumbnail</key>
+    <key alias="addThumbnail">Add thumbnail</key>
+    <key alias="tabCreateEmpty">Create empty</key>
+    <key alias="tabClipboard">Clipboard</key>
+    <key alias="tabBlockSettings">Settings</key>
+    <key alias="headlineAdvanced">Advanced</key>
+    <key alias="forceHideContentEditor">Force hide content editor</key>
+    <key alias="blockHasChanges">You have made changes to this content. Are you sure you want to discard them?</key>
+    <key alias="confirmCancelBlockCreationHeadline">Discard creation?</key>
+    <key alias="confirmCancelBlockCreationMessage"><![CDATA[Are you sure you want to cancel the creation.]]></key>
+    <key alias="elementTypeDoesNotExistHeadline">Error!</key>
+    <key alias="elementTypeDoesNotExistDescription">The ElementType of this block does not exist anymore</key>
+  </area>
+  <area alias="contentTemplatesDashboard">
+    <key alias="whatHeadline">What are Content Templates?</key>
+    <key alias="whatDescription">Content Templates are pre-defined content that can be selected when creating a new content node.</key>
+    <key alias="createHeadline">How do I create a Content Template?</key>
+    <key alias="createDescription">
+        <![CDATA[
+            <p>There are two ways to create a Content Template:</p>
+            <ul>
+                <li>Right-click a content node and select "Create Content Template" to create a new Content Template.</li>
+                <li>Right-click the Content Templates tree in the Settings section and select the Document Type you want to create a Content Template for.</li>
+            </ul>
+            <p>Once given a name, editors can start using the Content Template as a foundation for their new page.</p>
+        ]]>
+    </key>
+    <key alias="manageHeadline">How do I manage Content Templates?</key>
+    <key alias="manageDescription">You can edit and delete Content Templates from the "Content Templates" tree in the Settings section. Expand the Document Type which the Content Template is based on and click it to edit or delete it.</key>
+  </area>
+</language>
