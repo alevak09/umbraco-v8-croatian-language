@@ -5,7 +5,7 @@ Umbraco v8 backoffice language translation to croatian (hrvatski). File **hr.xml
 
 ## Setup umbraco backoffice language:
 
-- Copy **hr.xml** file from this repository to **Umbraco -> Config -> Lang** folder
+- Copy **hr.xml** file from this repository to your local **Umbraco -> Config -> Lang** folder
 - Run your umbraco project on localhost
 - **For newer umbraco v8 versions** go to User section, select Admin user and under Language choose Croatian(Hrvatski) language to be displayed in backoffice
 - Save changes
